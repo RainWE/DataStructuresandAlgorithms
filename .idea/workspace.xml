@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5c5cd3fa-aa8c-464a-888e-d44416c46b9f" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/per/ds/linkedlist/SingleLinkedListDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/per/ds/linkedlist/SingleLinkedListDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/DataStructures/per/ds/linkedlist/HeroNode1.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/DataStructures/per/ds/linkedlist/HeroNode1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/DataStructures/per/ds/linkedlist/SingleLinkedList1.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/DataStructures/per/ds/linkedlist/SingleLinkedList1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/DataStructures/per/ds/linkedlist/SingleLinkedListDemo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/DataStructures/per/ds/linkedlist/SingleLinkedListDemo1.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +62,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/DataStructures/src/per/ds/linkedlist" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DataStructures/src/per/ds/stack" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -77,6 +73,7 @@
       <recent name="per.ds.sparsearray" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IntelliJ IDEAworkplace2\DataStructuresandAlgorithms\DataStructures\src\per\ds\stack" />
       <recent name="D:\IntelliJ IDEAworkplace2\DataStructuresandAlgorithms\DataStructures\src\per\ds\linkedlist" />
       <recent name="D:\IntelliJ IDEAworkplace2\DataStructuresandAlgorithms\DataStructures\src\per\ds\queue" />
       <recent name="D:\IntelliJ IDEAworkplace2\DataStructuresandAlgorithms\DataStructures\src\per\ds\sparsearray" />
@@ -94,13 +91,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Josepfu1">
-    <configuration name="DoubleLinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="per.ds.linkedlist.DoubleLinkedListDemo" />
+  <component name="RunManager" selected="Application.PolandNotation1">
+    <configuration name="ArrayStackDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="per.ds.stack.ArrayStackDemo1" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="per.ds.linkedlist.*" />
+          <option name="PATTERN" value="per.ds.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoubleLinkedListDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="per.ds.linkedlist.DoubleLinkedListDemo1" />
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="per.ds.stack.Calculator" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="per.ds.linkedlist.*" />
+          <option name="PATTERN" value="per.ds.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Josepfu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="per.ds.linkedlist.Josepfu" />
+    <configuration name="Calculator1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="per.ds.stack.Calculator1" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="per.ds.linkedlist.*" />
+          <option name="PATTERN" value="per.ds.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleLinkedListDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="per.ds.linkedlist.SingleLinkedListDemo1" />
+    <configuration name="PolandNotation1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="per.ds.stack.PolandNotation1" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="per.ds.linkedlist.*" />
+          <option name="PATTERN" value="per.ds.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PolandNotation1" />
+        <item itemvalue="Application.Calculator1" />
+        <item itemvalue="Application.Calculator" />
+        <item itemvalue="Application.ArrayStackDemo1" />
         <item itemvalue="Application.Josepfu1" />
-        <item itemvalue="Application.Josepfu" />
-        <item itemvalue="Application.DoubleLinkedListDemo1" />
-        <item itemvalue="Application.SingleLinkedListDemo1" />
-        <item itemvalue="Application.DoubleLinkedListDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +198,9 @@
       <workItem from="1592112727510" duration="25000" />
       <workItem from="1592112770252" duration="68000" />
       <workItem from="1592112858279" duration="38000" />
-      <workItem from="1592112913180" duration="10197000" />
+      <workItem from="1592112913180" duration="10728000" />
+      <workItem from="1592223385369" duration="5673000" />
+      <workItem from="1592274716409" duration="4521000" />
     </task>
     <servers />
   </component>
