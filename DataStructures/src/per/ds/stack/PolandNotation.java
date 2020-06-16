@@ -73,7 +73,7 @@ public class PolandNotation {
 					s2.add(s1.pop());
 				}
 				s1.pop();//!!! 将 ( 弹出 s1栈， 消除小括号
-			} else {
+			}  else {
 				//当item的优先级小于等于s1栈顶运算符, 将s1栈顶的运算符弹出并加入到s2中，再次转到(4.1)与s1中新的栈顶运算符相比较
 				//问题：我们缺少一个比较优先级高低的方法
 				while(s1.size() != 0 && Operation.getValue(s1.peek()) >= Operation.getValue(item) ) {
