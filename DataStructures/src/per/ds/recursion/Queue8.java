@@ -55,9 +55,13 @@ public class Queue8 {
 			// n = 1  放置第 2列 1 n = 1 array[1] = 1
 			// Math.abs(1-0) == 1  Math.abs(array[n] - array[i]) = Math.abs(1-0) = 1
 			//3. 判断是否在同一行, 没有必要，n 每次都在递增
+//			if( Math.abs(n-i) == Math.abs(array[n] - array[i]) ) {
 			if(array[i] == array[n] || Math.abs(n-i) == Math.abs(array[n] - array[i]) ) {
 				return false;
 			}
+			//Math.abs(n-i) == Math.abs(array[n] - array[i])另外的理解
+			//把行列看成x和y，假设第一个皇后（x1,y1），第二个皇后（x2,y2）
+			//那么在同一斜线上的点必有(x2-x1)==(y2-y1)
 		}
 		return true;
 	}
