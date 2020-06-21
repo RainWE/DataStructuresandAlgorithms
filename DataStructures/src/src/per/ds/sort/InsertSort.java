@@ -42,7 +42,7 @@ public class InsertSort {
 			//定义待插入的数
 			insertVal = arr[i];
 			insertIndex = i - 1; // 即arr[1]的前面这个数的下标
-	
+//			{101, 34, 119, 1, -1, 89};
 			// 给insertVal 找到插入的位置
 			// 说明
 			// 1. insertIndex >= 0 保证在给insertVal 找插入位置，不越界

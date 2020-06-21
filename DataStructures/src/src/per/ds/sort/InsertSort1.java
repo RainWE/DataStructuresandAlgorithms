@@ -30,22 +30,106 @@ public class InsertSort1 {
 
     }
 
+    //{101, 34, 119, 1, -1, 89};
+//{34,34, 101, 119, -1, 89};
     //≤Â»Î≈≈–Ú
     public static void insertSort(int[] arr) {
+        int insertVal = 0;
+        int insertIndex = 0;
         for (int i = 1; i < arr.length; i++) {
-            int insertVal = arr[i];
-            int insertIndex = i - 1;
+            insertVal = arr[i];
+            insertIndex = i - 1;
             while (insertIndex >= 0 && insertVal < arr[insertIndex]) {
-				arr[insertIndex + 1] = arr[insertIndex];;
+                arr[insertIndex + 1] = arr[insertIndex];
                 insertIndex--;
             }
-            arr[insertIndex + 1] = insertVal;
+            if (insertIndex + 1 != i) {
+                arr[insertIndex + 1] = insertVal;
+            }
             //System.out.println("µ⁄"+i+"¬÷≤Â»Î");
             //System.out.println(Arrays.toString(arr));
         }
     }
 
+    public static void insertSort_1(int[] arr) {
+        int insertVal = 0;
+        int insertIndex = 0;
+        for (int i = 1; i < arr.length; i++) {
+            insertVal = arr[i];
+            insertIndex = i - 1;
+            while (insertIndex >= 0 && insertVal < arr[insertIndex]) {
+                arr[insertIndex + 1] = arr[insertIndex];
+                insertIndex--;
+            }
+            if (insertIndex + 1 != i) {
+                arr[insertIndex + 1] = insertVal;
+            }
+        }
+    }
 
+    public static void insertSort_2(int[] arr) {
+        int insertVal = 0;
+        int insertIndex = 0;
+        for (int i = 1; i < arr.length; i++) {
+            insertVal = arr[i];
+            insertIndex = i - 1;
+            while (insertIndex >= 0 && insertVal < arr[insertIndex]) {
+                arr[insertIndex + 1] = arr[insertIndex];
+                insertIndex--;
+            }
+            if (insertIndex + 1 != i) {
+                arr[insertIndex + 1] = insertVal;
+            }
+        }
+    }
+
+    public static void insertSort_3(int[] arr) {
+        int insertVal = 0;
+        int insertIndex = 0;
+        for (int i = 1; i < arr.length; i++) {
+            insertVal = arr[i];
+            insertIndex = i - 1;
+            while (insertIndex >= 0 && insertVal < arr[insertIndex]) {
+                arr[insertIndex + 1] = arr[insertIndex];
+                insertIndex--;
+            }
+            if (insertIndex + 1 != i) {
+                arr[insertIndex + 1] = insertVal;
+            }
+        }
+    }
+
+    public static void insertSort_4(int[] arr) {
+        int insertVal = 0;
+        int insertIndex = 0;
+        for (int i = 1; i < arr.length; i++) {
+            insertVal = arr[i];
+            insertIndex = i - 1;
+            while (insertIndex >= 0 && insertVal < arr[insertIndex]) {
+                arr[insertIndex + 1] = arr[insertIndex];
+                insertIndex--;
+            }
+            if (insertIndex + 1 != i) {
+                arr[insertIndex + 1] = insertVal;
+            }
+        }
+    }
+
+    public static void insertSort_5(int[] arr) {
+        int insertVal = 0;
+        int insertIndex = 0;
+        for (int i = 1; i < arr.length; i++) {
+            insertVal = arr[i];
+            insertIndex = i - 1;
+            while (insertIndex >= 0 && insertVal < arr[insertIndex]) {
+                arr[insertIndex + 1] = arr[insertIndex];
+                insertIndex--;
+            }
+            if (insertIndex + 1 != i) {
+                arr[insertIndex + 1] = insertVal;
+            }
+        }
+    }
 }
 
 
