@@ -7,28 +7,28 @@ import java.util.Date;
 public class ShellSort {
 
 	public static void main(String[] args) {
-		//int[] arr = { 8, 9, 1, 7, 2, 3, 5, 4, 6, 0 };
+		int[] arr = { 8, 9, 1, 7, 2, 3, 5, 4, 6, 0 };
 		
 		// 创建要给80000个的随机的数组
-		int[] arr = new int[8000000];
-		for (int i = 0; i < 8000000; i++) {
-			arr[i] = (int) (Math.random() * 8000000); // 生成一个[0, 8000000) 数
-		}
+//		int[] arr = new int[8000000];
+//		for (int i = 0; i < 8000000; i++) {
+//			arr[i] = (int) (Math.random() * 8000000); // 生成一个[0, 8000000) 数
+//		}
 
-		System.out.println("排序前");
-		Date data1 = new Date();
-		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-		String date1Str = simpleDateFormat.format(data1);
-		System.out.println("排序前的时间是=" + date1Str);
+//		System.out.println("排序前");
+//		Date data1 = new Date();
+//		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+//		String date1Str = simpleDateFormat.format(data1);
+//		System.out.println("排序前的时间是=" + date1Str);
 		
-		//shellSort(arr); //交换式
+//		shellSort(arr); //交换式
 		shellSort2(arr);//移位方式
 		
-		Date data2 = new Date();
-		String date2Str = simpleDateFormat.format(data2);
-		System.out.println("排序前的时间是=" + date2Str);
+//		Date data2 = new Date();
+//		String date2Str = simpleDateFormat.format(data2);
+//		System.out.println("排序前的时间是=" + date2Str);
 		
-		//System.out.println(Arrays.toString(arr));
+		System.out.println(Arrays.toString(arr));
 	}
 
 	// 使用逐步推导的方式来编写希尔排序
@@ -51,7 +51,7 @@ public class ShellSort {
 					}
 				}
 			}
-			//System.out.println("希尔排序第" + (++count) + "轮 =" + Arrays.toString(arr));
+			System.out.println("希尔排序第" + (++count) + "轮 =" + Arrays.toString(arr));
 		}
 		
 		/*
@@ -76,7 +76,7 @@ public class ShellSort {
 		// 希尔排序的第2轮排序
 		// 因为第2轮排序，是将10个数据分成了 5/2 = 2组
 		for (int i = 2; i < arr.length; i++) {
-			// 遍历各组中所有的元素(共5组，每组有2个元素), 步长5
+			// 遍历各组中所有的元素(共2组，每组有5个元素), 步长5
 			for (int j = i - 2; j >= 0; j -= 2) {
 				// 如果当前元素大于加上步长后的那个元素，说明交换
 				if (arr[j] > arr[j + 2]) {
