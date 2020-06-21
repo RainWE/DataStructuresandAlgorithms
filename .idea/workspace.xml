@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="f9148180-1851-4f94-a81a-fb34e25e18d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+=======
+    <list default="true" id="f9148180-1851-4f94-a81a-fb34e25e18d5" name="Default Changelist" comment="" />
+>>>>>>> 766ea455020a4630d14c3b4400cceb5601435577
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +42,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8.0_144" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../项目/DataStructuresandAlgorithms" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> 766ea455020a4630d14c3b4400cceb5601435577
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -175,7 +183,10 @@
       <workItem from="1592723143475" duration="16038000" />
       <workItem from="1592754060155" duration="36000" />
       <workItem from="1592754137815" duration="154000" />
+<<<<<<< HEAD
       <workItem from="1592754392470" duration="251000" />
+=======
+>>>>>>> 766ea455020a4630d14c3b4400cceb5601435577
     </task>
     <servers />
   </component>
@@ -187,10 +198,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="73" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1592723272209" />
+<<<<<<< HEAD
     <state x="549" y="156" key="FileChooserDialogImpl" timestamp="1592754484907">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592754484907" />
+=======
+    <state x="549" y="156" key="FileChooserDialogImpl" timestamp="1592754220634">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592754220634" />
+>>>>>>> 766ea455020a4630d14c3b4400cceb5601435577
     <state width="1493" height="309" key="GridCell.Tab.0.bottom" timestamp="1592753090479">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

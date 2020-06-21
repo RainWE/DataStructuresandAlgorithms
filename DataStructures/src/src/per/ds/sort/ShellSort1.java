@@ -26,7 +26,6 @@ public class ShellSort1 {
 //		Date data2 = new Date();
 //		String date2Str = simpleDateFormat.format(data2);
 //		System.out.println("排序前的时间是=" + date2Str);
-
         System.out.println(Arrays.toString(arr));
     }
 
