@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f9148180-1851-4f94-a81a-fb34e25e18d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/src/per/ds/sort/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/src/per/ds/sort/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/src/per/ds/sort/ShellSort1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/src/per/ds/sort/ShellSort1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/MergetSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/MergetSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/src/per/ds/sort/MergetSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/src/per/ds/sort/MergetSort.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +55,22 @@
       <recent name="D:\IntelliJ IDEAworkplace2\DataStructuresandAlgorithm\DataStructures\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QuickSort1">
-    <configuration name="InsertSort1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.per.ds.sort.InsertSort1" />
+  <component name="RunManager" selected="Application.MergetSort1">
+    <configuration name="MergetSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.per.ds.sort.MergetSort" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.per.ds.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergetSort1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.per.ds.sort.MergetSort1" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -98,19 +110,6 @@
     </configuration>
     <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.per.ds.sort.ShellSort" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.per.ds.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShellSort1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.per.ds.sort.ShellSort1" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -171,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QuickSort1" />
+        <item itemvalue="Application.MergetSort1" />
+        <item itemvalue="Application.MergetSort" />
         <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.QuickSort1" />
         <item itemvalue="Application.ShellSort" />
-        <item itemvalue="Application.ShellSort1" />
-        <item itemvalue="Application.InsertSort1" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +192,8 @@
       <workItem from="1592754060155" duration="36000" />
       <workItem from="1592754137815" duration="154000" />
       <workItem from="1592754392470" duration="251000" />
-      <workItem from="1592809555184" duration="4165000" />
+      <workItem from="1592809555184" duration="12388000" />
+      <workItem from="1592866050875" duration="1781000" />
     </task>
     <servers />
   </component>
@@ -209,38 +209,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592754220634" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1592816496261">
+    <state width="1493" height="347" key="GridCell.Tab.0.bottom" timestamp="1592867852259">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592816496261" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1592816496261">
+    <state width="1493" height="347" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592867852259" />
+    <state width="1493" height="347" key="GridCell.Tab.0.center" timestamp="1592867852259">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592816496261" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1592816496261">
+    <state width="1493" height="347" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592867852259" />
+    <state width="1493" height="347" key="GridCell.Tab.0.left" timestamp="1592867852259">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592816496261" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1592816496261">
+    <state width="1493" height="347" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592867852259" />
+    <state width="1493" height="347" key="GridCell.Tab.0.right" timestamp="1592867852259">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592816496261" />
-    <state width="1493" height="309" key="GridCell.Tab.1.bottom" timestamp="1592815210413">
+    <state width="1493" height="347" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592867852259" />
+    <state width="1493" height="309" key="GridCell.Tab.1.bottom" timestamp="1592867346542">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="309" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592815210413" />
-    <state width="1493" height="309" key="GridCell.Tab.1.center" timestamp="1592815210413">
+    <state width="1493" height="309" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592867346542" />
+    <state width="1493" height="309" key="GridCell.Tab.1.center" timestamp="1592867346542">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="309" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1592815210413" />
-    <state width="1493" height="309" key="GridCell.Tab.1.left" timestamp="1592815210413">
+    <state width="1493" height="309" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1592867346542" />
+    <state width="1493" height="309" key="GridCell.Tab.1.left" timestamp="1592867346542">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="309" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1592815210413" />
-    <state width="1493" height="309" key="GridCell.Tab.1.right" timestamp="1592815210413">
+    <state width="1493" height="309" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1592867346542" />
+    <state width="1493" height="309" key="GridCell.Tab.1.right" timestamp="1592867346542">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="309" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1592815210413" />
+    <state width="1493" height="309" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1592867346542" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1592749608810">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -253,23 +253,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1592751154366" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1592815571207">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1592866151667">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1592815571207" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1592866151667" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/QuickSort.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="1" />
+          <line>34</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/QuickSort.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="2" />
+          <line>25</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/MergetSort.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/MergetSort.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/MergetSort.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
