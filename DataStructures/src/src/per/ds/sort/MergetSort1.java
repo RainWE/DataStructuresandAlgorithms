@@ -22,7 +22,7 @@ public class MergetSort1 {
 //		System.out.println("排序前的时间是=" + date1Str);
 //
 		int temp[] = new int[arr.length]; //归并排序需要一个额外空间
- 		mergeSort_1(arr, 0, arr.length - 1, temp);
+ 		mergeSort(arr, 0, arr.length - 1, temp);
  		
 // 		Date data2 = new Date();
 //		String date2Str = simpleDateFormat.format(data2);

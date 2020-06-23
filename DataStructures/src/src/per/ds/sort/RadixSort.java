@@ -14,17 +14,17 @@ public class RadixSort {
 //		for (int i = 0; i < 8000000; i++) {
 //			arr[i] = (int) (Math.random() * 8000000); // 生成一个[0, 8000000) 数
 //		}
-		System.out.println("排序前");
-		Date data1 = new Date();
-		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-		String date1Str = simpleDateFormat.format(data1);
-		System.out.println("排序前的时间是=" + date1Str);
+//		System.out.println("排序前");
+//		Date data1 = new Date();
+//		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+//		String date1Str = simpleDateFormat.format(data1);
+//		System.out.println("排序前的时间是=" + date1Str);
 		
 		radixSort(arr);
 		
-		Date data2 = new Date();
-		String date2Str = simpleDateFormat.format(data2);
-		System.out.println("排序前的时间是=" + date2Str);
+//		Date data2 = new Date();
+//		String date2Str = simpleDateFormat.format(data2);
+//		System.out.println("排序前的时间是=" + date2Str);
 		
 		System.out.println("基数排序后 " + Arrays.toString(arr));
 		
@@ -55,7 +55,7 @@ public class RadixSort {
 		
 		//为了记录每个桶中，实际存放了多少个数据,我们定义一个一维数组来记录各个桶的每次放入的数据个数
 		//可以这里理解
-		//比如：bucketElementCounts[0] , 记录的就是  bucket[0] 桶的放入数据个数
+		//比如：bucketElementCounts[0] , 记录的就是  bucket[0] 桶的放入数据个数,下标代表第几个桶，值代表桶里的数个数
 		int[] bucketElementCounts = new int[10];
 		
 		
@@ -87,7 +87,7 @@ public class RadixSort {
 				
 			}
 			//System.out.println("第"+(i+1)+"轮，对个位的排序处理 arr =" + Arrays.toString(arr));
-			
+
 		}
 		
 		/*
