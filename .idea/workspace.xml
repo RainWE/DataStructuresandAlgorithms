@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9148180-1851-4f94-a81a-fb34e25e18d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/RadixSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/RadixSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/src/per/ds/sort/RadixSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/src/per/ds/sort/RadixSort.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +38,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8.0_144" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DataStructures/src/src/per/ds" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -49,20 +46,35 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="src.per.ds.search" />
       <recent name="src.per.ds.sort" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IntelliJ IDEAworkplace2\DataStructuresandAlgorithms\DataStructures\src\src\per\ds" />
       <recent name="D:\IntelliJ IDEAworkplace2\DataStructuresandAlgorithm\Algorithms\src" />
       <recent name="D:\IntelliJ IDEAworkplace2\DataStructuresandAlgorithm\DataStructures\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RadixSort">
-    <configuration name="MergetSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.per.ds.sort.MergetSort" />
+  <component name="RunManager" selected="Application.BinarySearch_1">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.per.ds.search.BinarySearch" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.per.ds.sort.*" />
+          <option name="PATTERN" value="src.per.ds.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearch_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.per.ds.search.BinarySearch_1" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.per.ds.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,19 +84,6 @@
     </configuration>
     <configuration name="MergetSort1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.per.ds.sort.MergetSort1" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.per.ds.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.per.ds.sort.QuickSort" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -171,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearch_1" />
+        <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.RadixSort" />
         <item itemvalue="Application.RadixSort1" />
         <item itemvalue="Application.MergetSort1" />
-        <item itemvalue="Application.MergetSort" />
-        <item itemvalue="Application.QuickSort" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +194,8 @@
       <workItem from="1592754392470" duration="251000" />
       <workItem from="1592809555184" duration="12388000" />
       <workItem from="1592866050875" duration="12987000" />
-      <workItem from="1592974071289" duration="599000" />
+      <workItem from="1592974071289" duration="2415000" />
+      <workItem from="1593054167806" duration="3017000" />
     </task>
     <servers />
   </component>
@@ -211,22 +211,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592754220634" />
-    <state width="1493" height="309" key="GridCell.Tab.0.bottom" timestamp="1592914291243">
+    <state width="1493" height="221" key="GridCell.Tab.0.bottom" timestamp="1593068735898">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="309" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592914291243" />
-    <state width="1493" height="309" key="GridCell.Tab.0.center" timestamp="1592914291243">
+    <state width="1493" height="221" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593068735898" />
+    <state width="1493" height="221" key="GridCell.Tab.0.center" timestamp="1593068735898">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="309" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592914291243" />
-    <state width="1493" height="309" key="GridCell.Tab.0.left" timestamp="1592914291243">
+    <state width="1493" height="221" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593068735898" />
+    <state width="1493" height="221" key="GridCell.Tab.0.left" timestamp="1593068735897">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="309" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592914291243" />
-    <state width="1493" height="309" key="GridCell.Tab.0.right" timestamp="1592914291243">
+    <state width="1493" height="221" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593068735897" />
+    <state width="1493" height="221" key="GridCell.Tab.0.right" timestamp="1593068735898">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="309" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592914291243" />
+    <state width="1493" height="221" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593068735898" />
     <state width="1493" height="309" key="GridCell.Tab.1.bottom" timestamp="1592914291243">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
