@@ -47,7 +47,7 @@ public class ThreadedBinaryTreeDemo {
 class ThreadedBinaryTree {
 	private HeroNode root;
 	
-	//为了实现线索化，需要创建要给指向当前结点的前驱结点的指针
+	//为了实现线索化，需要创建一个指向当前结点的前驱结点的指针
 	//在递归进行线索化时，pre 总是保留前一个结点
 	private HeroNode pre = null;
 
@@ -71,7 +71,7 @@ class ThreadedBinaryTree {
 			while(node.getLeftType() == 0) {
 				node = node.getLeft();
 			}
-			
+
 			//打印当前这个结点
 			System.out.println(node);
 			//如果当前结点的右指针指向的是后继结点,就一直输出
@@ -82,10 +82,10 @@ class ThreadedBinaryTree {
 			}
 			//替换这个遍历的结点
 			node = node.getRight();
-			
+
 		}
 	}
-	
+
 	//编写对二叉树进行中序线索化的方法
 	/**
 	 * 
@@ -97,21 +97,21 @@ class ThreadedBinaryTree {
 		if(node == null) {
 			return;
 		}
-		
+
 		//(一)先线索化左子树
 		threadedNodes(node.getLeft());
 		//(二)线索化当前结点[有难度]
-		
+
 		//处理当前结点的前驱结点
 		//以8结点来理解
 		//8结点的.left = null , 8结点的.leftType = 1
 		if(node.getLeft() == null) {
-			//让当前结点的左指针指向前驱结点 
-			node.setLeft(pre); 
+			//让当前结点的左指针指向前驱结点
+			node.setLeft(pre);
 			//修改当前结点的左指针的类型,指向前驱结点
 			node.setLeftType(1);
 		}
-		
+
 		//处理后继结点
 		if (pre != null && pre.getRight() == null) {
 			//让前驱结点的右指针指向当前结点
@@ -121,13 +121,13 @@ class ThreadedBinaryTree {
 		}
 		//!!! 每处理一个结点后，让当前结点是下一个结点的前驱结点
 		pre = node;
-		
+
 		//(三)在线索化右子树
 		threadedNodes(node.getRight());
-		
+
 		
 	}
-	
+
 	//删除结点
 	public void delNode(int no) {
 		if(root != null) {
@@ -150,7 +150,7 @@ class ThreadedBinaryTree {
 			System.out.println("二叉树为空，无法遍历");
 		}
 	}
-	
+
 	//中序遍历
 	public void infixOrder() {
 		if(this.root != null) {
@@ -167,7 +167,7 @@ class ThreadedBinaryTree {
 			System.out.println("二叉树为空，无法遍历");
 		}
 	}
-	
+
 	//前序遍历
 	public HeroNode preOrderSearch(int no) {
 		if(root != null) {
@@ -192,6 +192,68 @@ class ThreadedBinaryTree {
 			return null;
 		}
 	}
+
+	//-----------------------------------
+
+	//遍历线索化二叉树的方法
+	public void threadedList_1() {
+
+		HeroNode node=root;
+		while (node!=null){
+			while (node.getLeftType()==0){
+				node=node.getLeft();
+			}
+			System.out.println(node);
+			while (node.getRightType()==1){
+				node=node.getRight();
+				System.out.println(node);
+			}
+			node=node.getRight();
+		}
+
+	}
+
+	//编写对二叉树进行中序线索化的方法
+	/**
+	 *
+	 * @param node 就是当前需要线索化的结点
+	 */
+	public void threadedNodes_1(HeroNode node) {
+		if(root==null){
+			return;
+		}
+
+		threadedNodes_1(root.getLeft());
+
+		if(root.getLeft()==null){
+			root.setLeft(pre);
+			root.setLeftType(1);
+		}
+		if(pre!=null&&pre.getRight()==null){
+			pre.setRight(root);
+			pre.setRightType(1);
+		}
+		pre=root;
+		threadedNodes_1(root.getRight());
+	}
+	public void threadedNodes_2(HeroNode node){
+		if(root==null){
+			return;
+		}
+		threadedNodes_2(root.getLeft());
+		if(root.getLeft()==null){
+			root.setLeft(pre);
+			root.setLeftType(1);
+		}
+		if(pre!=null && pre.getRight()==null){
+			pre.setRight(root);
+			pre.setRightType(1);
+		}
+		pre = root;
+		threadedNodes_2(root.getRight());
+
+	}
+
 }
 
 //先创建HeroNode 结点

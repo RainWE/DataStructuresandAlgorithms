@@ -11,12 +11,16 @@ public class BinaryTreeDemo {
         HeroNode node3 = new HeroNode(3, "卢俊义");
         HeroNode node4 = new HeroNode(4, "林冲");
         HeroNode node5 = new HeroNode(5, "关胜");
+        HeroNode node6 = new HeroNode(6, "小明");
+        HeroNode node7 = new HeroNode(7, "小红");
 
         //说明，我们先手动创建该二叉树，后面我们学习递归的方式创建二叉树
         root.setLeft(node2);
         root.setRight(node3);
         node3.setRight(node4);
         node3.setLeft(node5);
+        node2.setLeft(node6);
+        node2.setRight(node7);
         binaryTree.setRoot(root);
 
         //测试
@@ -24,8 +28,8 @@ public class BinaryTreeDemo {
 //		binaryTree.preOrder();
 
         //测试
-//		System.out.println("中序遍历");
-//		binaryTree.infixOrder(); // 2,1,5,3,4
+		System.out.println("中序遍历");
+		binaryTree.infixOrder(); // 2,1,5,3,4
 //		
 //		System.out.println("后序遍历");
 //		binaryTree.postOrder(); // 2,5,4,3,1
@@ -62,12 +66,12 @@ public class BinaryTreeDemo {
 
         //测试一把删除结点
 
-        System.out.println("删除前,前序遍历");
-        binaryTree.preOrder(); //  1,2,3,5,4
-        binaryTree.delNode(5);
-        //binaryTree.delNode(3);
-        System.out.println("删除后，前序遍历");
-        binaryTree.preOrder(); // 1,2,3,4
+//        System.out.println("删除前,前序遍历");
+//        binaryTree.preOrder(); //  1,2,3,5,4
+//        binaryTree.delNode(5);
+//        //binaryTree.delNode(3);
+//        System.out.println("删除后，前序遍历");
+//        binaryTree.preOrder(); // 1,2,3,4
 
 
     }

@@ -6,7 +6,9 @@ public class ArrBinaryTreeDemo {
         int[] arr = {1, 2, 3, 4, 5, 6, 7};
         //创建一个 ArrBinaryTree
         ArrBinaryTree arrBinaryTree = new ArrBinaryTree(arr);
-        arrBinaryTree.preOrder(); // 1,2,4,5,3,6,7
+//        arrBinaryTree.preOrder(); // 1,2,4,5,3,6,7
+//        arrBinaryTree.midOrder(0);//4,2,5,1,6,3,7
+        arrBinaryTree.lastOrder(0);//4,5,2,6,7,3,1
     }
 
 }
@@ -34,6 +36,7 @@ class ArrBinaryTree {
         //如果数组为空，或者 arr.length = 0
         if (arr == null || arr.length == 0) {
             System.out.println("数组为空，不能按照二叉树的前序遍历");
+            return;
         }
         //输出当前这个元素
         System.out.println(arr[index]);
@@ -46,6 +49,44 @@ class ArrBinaryTree {
             preOrder(2 * index + 2);
         }
     }
+    //中序遍历
+	public void midOrder(int index) {
+		//如果数组为空，或者 arr.length = 0
+		if (arr == null || arr.length == 0) {
+			System.out.println("数组为空，不能按照二叉树的前序遍历");
+			return;
+		}
+		//向左递归遍历
+		if ((index * 2 + 1) < arr.length) {
+            midOrder(2 * index + 1);
+		}
+		//输出当前这个元素
+		System.out.println(arr[index]);
+
+		//向右递归遍历
+		if ((index * 2 + 2) < arr.length) {
+            midOrder(2 * index + 2);
+		}
+	}
+	//后序遍历
+	public void lastOrder(int index) {
+		//如果数组为空，或者 arr.length = 0
+		if (arr == null || arr.length == 0) {
+			System.out.println("数组为空，不能按照二叉树的前序遍历");
+			return;
+		}
+		//向左递归遍历
+		if ((index * 2 + 1) < arr.length) {
+            lastOrder(2 * index + 1);
+		}
+		//向右递归遍历
+		if ((index * 2 + 2) < arr.length) {
+            lastOrder(2 * index + 2);
+		}
+		//输出当前这个元素
+		System.out.println(arr[index]);
+
+	}
 
     public void preOrder_1(int index) {
         if (arr == null || arr.length == 0) {
