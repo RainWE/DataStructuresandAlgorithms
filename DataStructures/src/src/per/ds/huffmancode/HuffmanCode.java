@@ -177,6 +177,7 @@ public class HuffmanCode {
 
 
     //编写一个方法，完成对压缩数据的解码
+//-----------------------解压---------------------------------
 
     /**
      * @param huffmanCodes 赫夫曼编码表 map
@@ -245,10 +246,97 @@ public class HuffmanCode {
         //使用变量保存 b
         int temp = b; //将 b 转成 int
         //如果是正数我们还存在补高位
-        if (flag) {
-            temp |= 256; //按位与 256  1 0000 0000  | 0000 0001 => 1 0000 0001
+        if (flag) {//flag为true，b为正数没有补位需要补位（|：如果相对应位都是 0，则结果为 0，否则为 1）
+            temp |= 256; //按位与 256   0000 0001| 1 0000 0000   => 1 0000 0001
         }
         String str = Integer.toBinaryString(temp); //返回的是temp对应的二进制的补码
+        if (flag) {//因为补位了，但只需要后八位，所以从后八位截取
+            return str.substring(str.length() - 8);
+        } else {
+            return str;
+        }
+    }
+
+    private static byte[] decode_1(Map<Byte, String> huffmanCodes, byte[] huffmanBytes) {
+        StringBuilder stringBuilder = new StringBuilder();
+        for (int i=0;i<huffmanBytes.length;i++) {
+            byte b= huffmanBytes[i];
+            boolean flag = (i==huffmanBytes.length-1);
+            stringBuilder.append(byteToBitString(!flag, b));
+        }
+
+        Map<String,Byte> maps = new HashMap<>();
+        for(Map.Entry<Byte,String> entry:huffmanCodes.entrySet()){
+            maps.put(entry.getValue(),entry.getKey());
+        }
+
+        List<Byte> bytes = new ArrayList<>();
+        for(int i=0;i<stringBuilder.length();){
+            int count=1;
+            boolean flag =true;
+            Byte b=null;
+            while (flag){
+                String key=stringBuilder.substring(i,i+count);
+                b=maps.get(key);
+                if(b==null){
+                    count++;
+                }else {
+                    flag=false;
+                }
+            }
+            bytes.add(b);
+            i+=count;
+        }
+        byte b[]= new byte[bytes.size()];
+        for(int i=0;i<b.length;i++){
+            b[i]=bytes.get(i);
+        }
+        return b;
+
+    }
+
+    private static byte[] decode_2(Map<Byte, String> huffmanCodes, byte[] huffmanBytes) {
+        StringBuilder stringBuilder = new StringBuilder();
+        for(int i=0;i<huffmanBytes.length;i++){
+            Byte b = huffmanBytes[i];
+            boolean flag = (i==huffmanBytes.length-1);
+            stringBuilder.append(byteToBitString(!flag,b));
+        }
+        Map<String,Byte> maps = new HashMap<>();
+        for(Map.Entry<Byte,String> entry : huffmanCodes.entrySet()){
+            maps.put(entry.getValue(),entry.getKey());
+        }
+
+        List<Byte> list = new ArrayList<>();
+        for(int i=0;i<stringBuilder.length();){
+            int count =1;
+            boolean flag =true;
+            Byte b=null;
+            while (flag){
+                String key=stringBuilder.substring(i,i+count);
+                b=maps.get(key);
+                if(b==null){
+                    count++;
+                }else {
+                    flag=false;
+                }
+            }
+            list.add(b);
+            i+=count;
+        }
+        byte [] b = new byte[list.size()];
+        for(int i =0;i<b.length;i++){
+            b[i]=list.get(i);
+        }
+        return b;
+    }
+
+    private static String byteToBitString_1(boolean flag, byte b) {
+        int temp = b;
+        if (flag) {
+            temp |= 256;
+        }
+        String str = Integer.toBinaryString(temp);
         if (flag) {
             return str.substring(str.length() - 8);
         } else {
@@ -256,6 +344,32 @@ public class HuffmanCode {
         }
     }
 
+    private static String byteToBitString_2(boolean flag, byte b) {
+        int temp = b;
+        if (flag) {
+            temp |= 256;
+        }
+        String str = Integer.toBinaryString(temp);
+        if (flag) {
+            return str.substring(str.length() - 8);
+        } else {
+            return str;
+        }
+    }
+
+    private static String byteToBitString_3(boolean flag, byte b) {
+        int temp = b;
+        if (flag) {
+            temp |= 256;
+        }
+        String str = Integer.toBinaryString(temp);
+        if (flag) {
+            return str.substring(str.length() - 8);
+        } else {
+            return str;
+        }
+    }
+    //-----------------------压缩---------------------------------
     //使用一个方法，将前面的方法封装起来，便于我们的调用.
 
     /**
@@ -436,6 +550,7 @@ public class HuffmanCode {
         return nodes.get(0);
 
     }
+
     private static List<Node> getNodes_1(byte[] bytes) {
         List<Node> nodes = new ArrayList<>();
         Map<Byte, Integer> map = new HashMap<>();
@@ -452,6 +567,7 @@ public class HuffmanCode {
         }
         return nodes;
     }
+
     private static List<Node> getNodes_2(byte[] bytes) {
         List<Node> nodes = new ArrayList<>();
         Map<Byte, Integer> map = new HashMap<>();
@@ -468,6 +584,7 @@ public class HuffmanCode {
         }
         return nodes;
     }
+
     private static Node createHuffmanTree_1(List<Node> nodes) {
         while (nodes.size() > 1) {
             Collections.sort(nodes);
@@ -482,6 +599,7 @@ public class HuffmanCode {
         }
         return nodes.get(0);
     }
+
     private static void getCodes_1(Node node, String code, StringBuilder stringBuilder) {
         StringBuilder stringBuilder2 = new StringBuilder(stringBuilder);
         stringBuilder2.append(code);
@@ -494,6 +612,7 @@ public class HuffmanCode {
             }
         }
     }
+
     private static void getCodes_2(Node node, String code, StringBuilder stringBuilder) {
         StringBuilder stringBuilder2 = new StringBuilder(stringBuilder);
         stringBuilder2.append(code);
@@ -506,6 +625,7 @@ public class HuffmanCode {
             }
         }
     }
+
     private static byte[] zip_1(byte[] bytes, Map<Byte, String> huffmanCodes) {
         StringBuilder stringBuilder = new StringBuilder();
         for (byte b : bytes) {
@@ -521,7 +641,7 @@ public class HuffmanCode {
         int index = 0;
         for (int i = 0; i < stringBuilder.length(); i += 8) {
             String str;
-            if (i+8 > stringBuilder.length()) {
+            if (i + 8 > stringBuilder.length()) {
                 str = stringBuilder.substring(i);
             } else {
                 str = stringBuilder.substring(i, i + 8);
@@ -531,27 +651,28 @@ public class HuffmanCode {
         }
         return huffmanCodeBytes;
     }
-    private static byte[] zip_2(byte[] bytes, Map<Byte, String> huffmanCodes){
-        StringBuilder stringBuilder=new StringBuilder();
-        for(byte b:bytes){
+
+    private static byte[] zip_2(byte[] bytes, Map<Byte, String> huffmanCodes) {
+        StringBuilder stringBuilder = new StringBuilder();
+        for (byte b : bytes) {
             stringBuilder.append(huffmanCodes.get(b));
         }
-        int len =0;
-        if(stringBuilder.length()%8 ==0){
-            len =stringBuilder.length()/8;
-        }else {
-            len =stringBuilder.length()/8+1;
+        int len = 0;
+        if (stringBuilder.length() % 8 == 0) {
+            len = stringBuilder.length() / 8;
+        } else {
+            len = stringBuilder.length() / 8 + 1;
         }
-        byte[] huffmanCodeBytes=new byte[len];
-        int index=0;
-        for(int i=0;i<stringBuilder.length();i+=8){
+        byte[] huffmanCodeBytes = new byte[len];
+        int index = 0;
+        for (int i = 0; i < stringBuilder.length(); i += 8) {
             String str;
-            if(i+8>stringBuilder.length()){
-                str=stringBuilder.substring(i);
-            }else {
-                str=stringBuilder.substring(i,i+8);
+            if (i + 8 > stringBuilder.length()) {
+                str = stringBuilder.substring(i);
+            } else {
+                str = stringBuilder.substring(i, i + 8);
             }
-            huffmanCodeBytes[index]=(byte)Integer.parseInt(str);
+            huffmanCodeBytes[index] = (byte) Integer.parseInt(str);
             index++;
         }
         return huffmanCodeBytes;
