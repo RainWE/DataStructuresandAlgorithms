@@ -18,16 +18,16 @@ public class HuffmanCode {
     public static void main(String[] args) {
 
         //测试压缩文件
-//		String srcFile = "d://Uninstall.xml";
-//		String dstFile = "d://Uninstall.zip";
-//		
+//		String srcFile = "D://1.docx";
+//		String dstFile = "D://Uninstall.zip";
+//
 //		zipFile(srcFile, dstFile);
 //		System.out.println("压缩文件ok~~");
 
 
         //测试解压文件
-        String zipFile = "d://Uninstall.zip";
-        String dstFile = "d://Uninstall2.xml";
+        String zipFile = "D://Uninstall.zip";
+        String dstFile = "D://2.docx";
         unZipFile(zipFile, dstFile);
         System.out.println("解压成功!");
 		
