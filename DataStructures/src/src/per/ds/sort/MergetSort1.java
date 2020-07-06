@@ -38,7 +38,7 @@ public class MergetSort1 {
 			int mid = (left+right)/2;
 			mergeSort(arr,left,mid,temp);
 			mergeSort(arr,mid+1,right,temp);
-			merge(arr,left,mid,right,temp);
+			merge_2(arr,left,mid,right,temp);
 		}
 	}
 	
@@ -108,6 +108,40 @@ public class MergetSort1 {
 		while (lef<=right) arr[lef++] =temp[t++];
 	}
 
+	public static void merge_2(int[] arr, int left, int mid, int right, int[] temp){
+		int i = left;
+		int j = mid+1;
+		int t=0;
+		while (i<=mid&&j<=right){
+			if(arr[i]<arr[j]){
+				temp[t]=arr[i];
+				i++;
+				t++;
+			}else {
+				temp[t]=arr[j];
+				j++;
+				t++;
+			}
+		}
+		while (i<=mid){
+			temp[t]=arr[i];
+			t++;
+			i++;
+		}
+		while (j<=right){
+			temp[t]=arr[j];
+			t++;
+			j++;
+		}
+		t=0;
+		int index=left;
+		while (index<=right){
+			arr[index]=temp[t];
+			index++;
+			t++;
+		}
+
+	}
 
 
 

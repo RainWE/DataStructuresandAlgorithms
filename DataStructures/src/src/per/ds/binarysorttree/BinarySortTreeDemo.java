@@ -149,6 +149,8 @@ class BinarySortTree {
 			
 		}
 	}
+
+
 	public int delRightTreeMin_1(Node node){
 		Node target = node;
 		while (target.left!=null){
@@ -205,6 +207,7 @@ class BinarySortTree {
 		}
 	}
 	public void delNode_2(int value){
+
 		if(root ==null){
 			return;
 		}else {
@@ -253,6 +256,8 @@ class BinarySortTree {
 		}
 
 	}
+
+
 	//添加结点的方法
 	public void add(Node node) {
 		if(root == null) {
