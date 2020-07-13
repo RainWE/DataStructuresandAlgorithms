@@ -74,34 +74,87 @@ public class Graph_2 {
 	 * @return 如果存在就返回对应的下标，否则返回-1
 	 */
 	public int getFirstNeighbor(int index) {
-
+		for(int j=0;j<vertexList.size();j++){
+			if(edges[index][j]>0){
+				return j;
+			}
+		}
+		return -1;
+	}
+	public int getFirstNeighbor_1(int index) {
+		for(int j=0;j<vertexList.size();j++){
+			if(edges[index][j]>0){
+				return j;
+			}
+		}
 		return -1;
 	}
 	//根据前一个邻接结点的下标来获取下一个邻接结点
 	public int getNextNeighbor(int v1, int v2) {
-
+		for(int j=v2+1;j<vertexList.size();j++){
+			if(edges[v1][j]>0){
+				return j;
+			}
+		}
 		return -1;
 	}
-	
+	public int getNextNeighbor_1(int v1, int v2) {
+
+		for(int j=v2+1;j<vertexList.size();j++){
+			if(edges[v1][j]>0){
+				return j;
+			}
+		}
+		return -1;
+	}
+	//--------------------------dfs----------------------------------
 	//深度优先遍历算法
 	//i 第一次就是 0
 	private void dfs(boolean[] isVisited, int i) {
-
-		
+		System.out.print(getValueByIndex(i) + "->");
+		isVisited[i]=true;
+		int w=getFirstNeighbor(i);
+		while (w!=-1){
+			if(!isVisited[w]){
+				dfs(isVisited,w);
+			}
+			getNextNeighbor(i,w);
+		}
 	}
-	
 	//对dfs 进行一个重载, 遍历我们所有的结点，并进行 dfs
 	public void dfs() {
-
+		isVisited=new boolean[vertexList.size()];
+		for(int i=0;i<getNumOfVertex();i++){
+			if(!isVisited[i]){
+				dfs(isVisited,i);
+			}
+		}
 	}
-	
-	//对一个结点进行广度优先遍历的方法
+	private void dfs_1(boolean[] isVisited, int i) {
+		System.out.print(getValueByIndex(i) + "->");
+		isVisited[i]=true;
+		int w = getFirstNeighbor(i);
+		while (w!=-1){
+			if(!isVisited[w]){
+				dfs(isVisited,w);
+			}
+			getNextNeighbor(i,w);
+		}
+	}
+	public void dfs_1() {
+		isVisited=new boolean[vertexList.size()];
+		for(int i=0;i<getNumOfVertex();i++){
+			if(!isVisited[i]){
+				dfs(isVisited,i);
+			}
+		}
+	}
+	//------------------------bfs------------------------------------
+	//遍历所有的结点，都进行广度优先搜索
 	private void bfs(boolean[] isVisited, int i) {
 
 
-	} 
-	
-	//遍历所有的结点，都进行广度优先搜索
+	}
 	public void bfs() {
 
 	}
