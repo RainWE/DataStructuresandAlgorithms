@@ -230,7 +230,7 @@ public class Graph_2 {
     }
 
     public void bfs_1() {
-        isVisited = new boolean[getNumOfVertex()];
+        isVisited = new boolean[vertexList.size()];
         for (int i = 0; i < getNumOfVertex(); i++) {
             if (!isVisited[i]) {
                 bfs(isVisited, i);
