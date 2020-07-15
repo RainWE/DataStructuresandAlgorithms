@@ -6,7 +6,7 @@ public class KnapsackProblem_2 {
 		// TODO Auto-generated method stub
 		int[] w = {0,1, 4, 3};//物品的重量
 		int[] val = {0,1500, 3000, 2000}; //物品的价值 这里val[i] 就是前面讲的v[i]
-		int m = 4; //背包的容量
+		int m = 7; //背包的容量
 		int n = val.length-1; //物品的个数
 		
 		
