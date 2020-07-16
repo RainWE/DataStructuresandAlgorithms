@@ -162,7 +162,7 @@ public class KMPAlgorithm {
 
     public static int[] kmpNext_1(String dest) {
         int[] next = new int[dest.length()];
-//        next[0] = 0;
+        next[0] = 0;
         for (int i = 1, j = 0; i < dest.length(); i++) {
             while (j > 0 && dest.charAt(i) != dest.charAt(j)) {
                 j = next[j - 1];

@@ -61,6 +61,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="per.algo.greedy" />
       <recent name="per.algo.dynamic" />
       <recent name="src.per.ds.graph" />
       <recent name="src.per.ds.search" />
@@ -80,13 +81,13 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.KMPAlgorithm">
-    <configuration name="Hanoitower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="per.algo.dac.Hanoitower" />
+  <component name="RunManager" selected="Application.GreedyAlgorithm_5">
+    <configuration name="GreedyAlgorithm_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="per.algo.greedy.GreedyAlgorithm_1" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="per.algo.dac.*" />
+          <option name="PATTERN" value="per.algo.greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KMPAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="per.algo.kmp.KMPAlgorithm" />
+    <configuration name="GreedyAlgorithm_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="per.algo.greedy.GreedyAlgorithm_2" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="per.algo.kmp.*" />
+          <option name="PATTERN" value="per.algo.greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnapsackProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="per.algo.dynamic.KnapsackProblem" />
+    <configuration name="GreedyAlgorithm_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="per.algo.greedy.GreedyAlgorithm_3" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="per.algo.dynamic.*" />
+          <option name="PATTERN" value="per.algo.greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnapsackProblem_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="per.algo.dynamic.KnapsackProblem_1" />
+    <configuration name="GreedyAlgorithm_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="per.algo.greedy.GreedyAlgorithm_4" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="per.algo.dynamic.*" />
+          <option name="PATTERN" value="per.algo.greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnapsackProblem_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="per.algo.dynamic.KnapsackProblem_2" />
+    <configuration name="GreedyAlgorithm_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="per.algo.greedy.GreedyAlgorithm_5" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="per.algo.dynamic.*" />
+          <option name="PATTERN" value="per.algo.greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.KMPAlgorithm" />
-        <item itemvalue="Application.KnapsackProblem_2" />
-        <item itemvalue="Application.KnapsackProblem_1" />
-        <item itemvalue="Application.KnapsackProblem" />
-        <item itemvalue="Application.Hanoitower" />
+        <item itemvalue="Application.GreedyAlgorithm_5" />
+        <item itemvalue="Application.GreedyAlgorithm_4" />
+        <item itemvalue="Application.GreedyAlgorithm_3" />
+        <item itemvalue="Application.GreedyAlgorithm_2" />
+        <item itemvalue="Application.GreedyAlgorithm_1" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +201,8 @@
       <workItem from="1594601232042" duration="8646000" />
       <workItem from="1594648959053" duration="145000" />
       <workItem from="1594688253904" duration="10899000" />
-      <workItem from="1594777901629" duration="14639000" />
+      <workItem from="1594777901629" duration="17674000" />
+      <workItem from="1594866503595" duration="3752000" />
     </task>
     <servers />
   </component>
@@ -236,22 +238,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="259" key="GridCell.Tab.-1.right/0.0.1536.824@0.0.1536.824" timestamp="1594695778399" />
-    <state width="1493" height="252" key="GridCell.Tab.0.bottom" timestamp="1594797320866">
+    <state width="1493" height="252" key="GridCell.Tab.0.bottom" timestamp="1594872005315">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594797320866" />
-    <state width="1493" height="252" key="GridCell.Tab.0.center" timestamp="1594797320866">
+    <state width="1493" height="252" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594872005315" />
+    <state width="1493" height="252" key="GridCell.Tab.0.center" timestamp="1594872005315">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594797320866" />
-    <state width="1493" height="252" key="GridCell.Tab.0.left" timestamp="1594797320866">
+    <state width="1493" height="252" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594872005315" />
+    <state width="1493" height="252" key="GridCell.Tab.0.left" timestamp="1594872005315">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594797320866" />
-    <state width="1493" height="252" key="GridCell.Tab.0.right" timestamp="1594797320866">
+    <state width="1493" height="252" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594872005315" />
+    <state width="1493" height="252" key="GridCell.Tab.0.right" timestamp="1594872005315">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594797320866" />
+    <state width="1493" height="252" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594872005315" />
     <state width="1493" height="259" key="GridCell.Tab.1.bottom" timestamp="1594695772666">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
