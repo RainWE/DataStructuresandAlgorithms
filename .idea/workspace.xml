@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f9148180-1851-4f94-a81a-fb34e25e18d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/per/leetcode/backtracking/LetterCasePermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/per/leetcode/backtracking/LetterCasePermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/per/leetcode/backtracking/LetterCasePermutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/per/leetcode/backtracking/LetterCasePermutation.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +89,20 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.LetterCasePermutation">
+  <component name="RunManager" selected="Application.IsUnique">
+    <configuration name="IsUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="per.leetcode.array.IsUnique" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="per.leetcode.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LetterCasePermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="per.leetcode.backtracking.LetterCasePermutation" />
       <module name="LeetCode" />
@@ -114,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="per.leetcode.divideAndconquer.MergeTwoLists" />
+    <configuration name="ReverseLeftWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="per.leetcode.string.ReverseLeftWords" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="per.leetcode.divideAndconquer.*" />
+          <option name="PATTERN" value="per.leetcode.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,26 +155,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoCitySchedCost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="per.leetcode.greedy.TwoCitySchedCost" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="per.leetcode.greedy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IsUnique" />
+        <item itemvalue="Application.ReverseLeftWords" />
         <item itemvalue="Application.LetterCasePermutation" />
         <item itemvalue="Application.StringTest" />
         <item itemvalue="Application.MaxSubArray" />
-        <item itemvalue="Application.MergeTwoLists" />
-        <item itemvalue="Application.TwoCitySchedCost" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +228,8 @@
       <workItem from="1595582174718" duration="3218000" />
       <workItem from="1595653574912" duration="14232000" />
       <workItem from="1595683797397" duration="71000" />
-      <workItem from="1595735094040" duration="12246000" />
+      <workItem from="1595735094040" duration="13064000" />
+      <workItem from="1595823157794" duration="2287000" />
     </task>
     <servers />
   </component>
@@ -242,14 +245,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1595665542918" />
-    <state x="524" y="117" key="#xdebugger.evaluate" timestamp="1595754644336">
+    <state x="524" y="117" key="#xdebugger.evaluate" timestamp="1595826155206">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="524" y="117" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1595754644336" />
-    <state x="549" y="156" key="FileChooserDialogImpl" timestamp="1595683862256">
+    <state x="524" y="117" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1595826155206" />
+    <state x="549" y="156" key="FileChooserDialogImpl" timestamp="1595765155032">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595683862256" />
+    <state x="549" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595765155032" />
     <state width="1493" height="259" key="GridCell.Tab.-1.bottom" timestamp="1594695778399">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -266,22 +269,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="259" key="GridCell.Tab.-1.right/0.0.1536.824@0.0.1536.824" timestamp="1594695778399" />
-    <state width="1493" height="268" key="GridCell.Tab.0.bottom" timestamp="1595764344163">
+    <state width="1493" height="268" key="GridCell.Tab.0.bottom" timestamp="1595826298128">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="268" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595764344163" />
-    <state width="1493" height="268" key="GridCell.Tab.0.center" timestamp="1595764344163">
+    <state width="1493" height="268" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595826298128" />
+    <state width="1493" height="268" key="GridCell.Tab.0.center" timestamp="1595826298127">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="268" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595764344163" />
-    <state width="1493" height="268" key="GridCell.Tab.0.left" timestamp="1595764344163">
+    <state width="1493" height="268" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595826298127" />
+    <state width="1493" height="268" key="GridCell.Tab.0.left" timestamp="1595826298127">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="268" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595764344163" />
-    <state width="1493" height="268" key="GridCell.Tab.0.right" timestamp="1595764344163">
+    <state width="1493" height="268" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595826298127" />
+    <state width="1493" height="268" key="GridCell.Tab.0.right" timestamp="1595826298128">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="268" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595764344163" />
+    <state width="1493" height="268" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595826298128" />
     <state width="1493" height="259" key="GridCell.Tab.1.bottom" timestamp="1594695772666">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -306,10 +309,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1593925011092" />
-    <state x="323" y="151" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1592868682204">
+    <state x="323" y="151" width="927" height="566" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1595765146150">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="323" y="151" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1592868682204" />
+    <state x="323" y="151" width="927" height="566" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1595765146150" />
     <state x="178" y="0" key="new project wizard" timestamp="1594965903447">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -331,101 +334,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/DataStructures/src/src/per/ds/search/FibonacciSearch.java</url>
-          <line>10</line>
+          <url>file://$PROJECT_DIR$/LeetCode/src/per/leetcode/array/IsUnique.java</url>
+          <line>22</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/DataStructures/src/src/per/ds/tree/threadedbinarytree/ThreadedBinaryTreeDemo.java</url>
-          <line>25</line>
+          <url>file://$PROJECT_DIR$/LeetCode/src/per/leetcode/array/IsUnique.java</url>
+          <line>19</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/DataStructures/src/src/per/ds/tree/threadedbinarytree/ThreadedBinaryTreeDemo.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/DataStructures/src/src/per/ds/tree/threadedbinarytree/ThreadedBinaryTreeDemo.java</url>
-          <line>96</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/MergetSort.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/MergetSort.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/MergetSort.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/MergetSort1.java</url>
-          <line>111</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/MergetSort1.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/MergetSort1.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/DataStructures/src/src/per/ds/graph/Graph.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Algorithms/src/per/algo/dijkstra/DijkstraAlgorithm.java</url>
-          <line>95</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Algorithms/src/per/algo/dijkstra/DijkstraAlgorithm.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Algorithms/src/per/algo/dijkstra/DijkstraAlgorithm.java</url>
-          <line>61</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/LeetCode/src/per/leetcode/queue/MaxSlidingWindow.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/LeetCode/src/per/leetcode/queue/MaxSlidingWindow.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/LeetCode/src/per/leetcode/backtracking/LetterCasePermutation.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/LeetCode/src/per/leetcode/backtracking/LetterCasePermutation.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/LeetCode/src/per/leetcode/backtracking/LetterCasePermutation.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="javascript-exception" />
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
 </project>

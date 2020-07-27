@@ -18,7 +18,7 @@ import java.util.List;
  */
 public class LetterCasePermutation {
     public static void main(String[] args) {
-        String S = "a1b2";
+        String S = "a1b2c";
         List<String> list = letterCasePermutation_1(S);
         for (String str : list) {
             System.out.println(str);
@@ -56,7 +56,7 @@ public class LetterCasePermutation {
                 for (int i=0;i<n;i++){
                     list.add(new StringBuilder(list.get(i)));
                     list.get(i).append(Character.toUpperCase(c));
-                    list.get(i+n).append(Character.toLowerCase(c));
+                    list.get(i+n).append(Character.toLowerCase(c));//n是一个间隔，再未append的时候，i与i+n的值相同
                 }
             }else {
                 for (int i=0;i<list.size();i++){
