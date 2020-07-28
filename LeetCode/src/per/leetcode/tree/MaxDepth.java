@@ -42,7 +42,7 @@ public class MaxDepth {
     }
     public int maxDepth_1(TreeNode root) {
         if (root == null) return 0;
-        List<TreeNode> queue = new LinkedList<>() {{ add(root); }}, tmp;
+        List<TreeNode> queue = new LinkedList() {{ add(root); }}, tmp;
         int res = 0;
         while (!queue.isEmpty()) {
             tmp = new LinkedList<>();
@@ -58,7 +58,7 @@ public class MaxDepth {
 
 }
 
-}
+
 
 class TreeNode {
     int val;
