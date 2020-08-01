@@ -13,6 +13,22 @@ import java.util.Arrays;
  */
 public class MajorityElement {
     public int majorityElement(int[] nums) {
+        int x = 0, votes = 0;
+        for(int num : nums){
+            if(votes == 0) x = num;
+            votes += num == x ? 1 : -1;
+        }
+        return x;
+    }
+    public int majorityElement_2(int[] nums) {
+        int x=0,vote=0;
+        for (int num:nums){
+            if (vote==0) x=num;
+            vote+=num==x?+1:-1;
+        }
+        return x;
+    }
+    public int majorityElement_1(int[] nums) {
         Arrays.sort(nums);
         int num = nums[nums.length/2];
         return num;
