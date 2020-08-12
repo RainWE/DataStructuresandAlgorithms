@@ -1,4 +1,4 @@
-package per.leetcode.stack;
+package per.leetcode.StackAndHeap;
 
 import java.util.Arrays;
 

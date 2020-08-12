@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9148180-1851-4f94-a81a-fb34e25e18d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/per/leetcode/divideAndconquer/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/per/leetcode/divideAndconquer/MajorityElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/per/leetcode/stack/LastStoneWeight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/per/leetcode/stack/LastStoneWeight.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,11 +61,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8.0_144" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/Program Files/leetcode/leetcode" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Rainbow Brackets" />
+    <property name="settings.editor.selected.configurable" value="leetcode.id" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -89,7 +89,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.LastStoneWeight">
+  <component name="RunManager" selected="Application.MergeTwoSortedLists">
     <configuration name="GetKthMagicNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="per.leetcode.stack.GetKthMagicNumber" />
       <module name="LeetCode" />
@@ -129,6 +129,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MergeTwoSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.MergeTwoSortedLists" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.editor.cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MinNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="per.leetcode.sort.MinNumber" />
       <module name="LeetCode" />
@@ -142,26 +155,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLeftWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="per.leetcode.string.ReverseLeftWords" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="per.leetcode.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeTwoSortedLists" />
         <item itemvalue="Application.LastStoneWeight" />
         <item itemvalue="Application.MinNumber" />
         <item itemvalue="Application.GetKthMagicNumber" />
         <item itemvalue="Application.IsUnique" />
-        <item itemvalue="Application.ReverseLeftWords" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +235,12 @@
       <workItem from="1596089415627" duration="2554000" />
       <workItem from="1596176622627" duration="12597000" />
       <workItem from="1596262800476" duration="3192000" />
-      <workItem from="1596608663709" duration="4999000" />
+      <workItem from="1596608663709" duration="5542000" />
+      <workItem from="1596630832068" duration="33000" />
+      <workItem from="1597138048198" duration="636000" />
+      <workItem from="1597156068213" duration="57000" />
+      <workItem from="1597156144253" duration="1735000" />
+      <workItem from="1597198319622" duration="816000" />
     </task>
     <servers />
   </component>
@@ -243,6 +248,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="477" y="76" width="597" height="672" key="#MergeTwoSortedLists" timestamp="1597157612773">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="76" width="597" height="672" key="#MergeTwoSortedLists/0.0.1536.824@0.0.1536.824" timestamp="1597157612773" />
+    <state x="361" y="73" key="#Notifications" timestamp="1597156455272">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="73" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1597156455272" />
     <state x="361" y="73" key="#Project_Structure" timestamp="1592887944699">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -251,14 +264,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1595665542918" />
+    <state x="506" y="198" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1597157609196">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="506" y="198" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1597157609196" />
     <state x="524" y="117" key="#xdebugger.evaluate" timestamp="1596181982374">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="524" y="117" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1596181982374" />
-    <state x="549" y="156" key="FileChooserDialogImpl" timestamp="1596287885430">
+    <state x="549" y="156" key="FileChooserDialogImpl" timestamp="1597157873068">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596287885430" />
+    <state x="549" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597157873068" />
     <state width="1493" height="259" key="GridCell.Tab.-1.bottom" timestamp="1594695778399">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -275,22 +292,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="259" key="GridCell.Tab.-1.right/0.0.1536.824@0.0.1536.824" timestamp="1594695778399" />
-    <state width="1493" height="293" key="GridCell.Tab.0.bottom" timestamp="1596624950006">
+    <state width="746" height="164" key="GridCell.Tab.0.bottom" timestamp="1597157883084">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="293" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596624950006" />
-    <state width="1493" height="293" key="GridCell.Tab.0.center" timestamp="1596624950006">
+    <state width="746" height="164" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597157883084" />
+    <state width="746" height="164" key="GridCell.Tab.0.center" timestamp="1597157883083">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="293" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596624950006" />
-    <state width="1493" height="293" key="GridCell.Tab.0.left" timestamp="1596624950006">
+    <state width="746" height="164" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597157883083" />
+    <state width="746" height="164" key="GridCell.Tab.0.left" timestamp="1597157883083">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="293" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596624950006" />
-    <state width="1493" height="293" key="GridCell.Tab.0.right" timestamp="1596624950006">
+    <state width="746" height="164" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597157883083" />
+    <state width="746" height="164" key="GridCell.Tab.0.right" timestamp="1597157883083">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="293" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596624950006" />
+    <state width="746" height="164" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597157883083" />
     <state width="1493" height="259" key="GridCell.Tab.1.bottom" timestamp="1594695772666">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -307,10 +324,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="259" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594695772666" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1592749608810">
+    <state x="415" y="104" key="NewModule_or_Project.wizard" timestamp="1597157744402">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1592749608810" />
+    <state x="415" y="104" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1597157744402" />
+    <state x="210" y="22" width="1130" height="758" key="SettingsEditor" timestamp="1597157793123">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="210" y="22" width="1130" height="758" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597157793123" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1593925011092">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

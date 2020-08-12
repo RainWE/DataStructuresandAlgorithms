@@ -1,8 +1,7 @@
-package per.leetcode.stack;
+package per.leetcode.StackAndHeap;
 
 import java.util.Deque;
 import java.util.LinkedList;
-import java.util.List;
 
 /**用两个栈实现队列
  用两个栈实现一个队列。队列的声明如下，请实现它的两个函数 appendTail 和 deleteHead ，

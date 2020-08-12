@@ -1,9 +1,4 @@
-package per.leetcode.stack;
-
-import java.util.HashSet;
-import java.util.PriorityQueue;
-import java.util.Queue;
-import java.util.Set;
+package per.leetcode.StackAndHeap;
 
 /**第 k 个数
  有些数的素因子只有 3，5，7，请设计一个算法找出第 k 个数。
