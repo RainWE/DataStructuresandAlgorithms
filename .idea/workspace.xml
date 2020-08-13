@@ -3,25 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f9148180-1851-4f94-a81a-fb34e25e18d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/BubbleSort1.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/BubbleSort1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/InsertSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/InsertSort1.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/InsertSort1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/MergetSort1.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/MergetSort1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/QuickSort1.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/QuickSort1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/RadixSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/RadixSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/RadixSort1.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/RadixSort1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/SelectSort1.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/SelectSort1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/ShellSort1.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/ShellSort1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/per/leetcode/queue/RecentCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/per/leetcode/queue/RecentCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/src/per/ds/graph/Graph_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/src/per/ds/graph/Graph_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/src/per/ds/sort/BubbleSort1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/src/per/ds/sort/BubbleSort1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/src/per/ds/sort/InsertSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/src/per/ds/sort/InsertSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/src/per/ds/sort/InsertSort1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/src/per/ds/sort/InsertSort1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/src/per/ds/sort/MergetSort1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/src/per/ds/sort/MergetSort1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/src/per/ds/sort/QuickSort1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/src/per/ds/sort/QuickSort1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/src/per/ds/sort/RadixSort1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/src/per/ds/sort/RadixSort1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/src/per/ds/sort/SelectSort1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/src/per/ds/sort/SelectSort1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/src/per/ds/sort/ShellSort1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/src/per/ds/sort/ShellSort1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,7 +239,7 @@
       <workItem from="1597156068213" duration="57000" />
       <workItem from="1597156144253" duration="1735000" />
       <workItem from="1597198319622" duration="13689000" />
-      <workItem from="1597284602045" duration="2764000" />
+      <workItem from="1597284602045" duration="4238000" />
     </task>
     <servers />
   </component>
