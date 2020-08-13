@@ -42,14 +42,14 @@ public class SelectSort1 {
             int minIndex = i;
             int min = arr[i];
             for (int j = i + 1; j < arr.length; j++) {
-				if(min>arr[j]){
-				    min=arr[j];
-				    minIndex=j;
+                if (min > arr[j]) {
+                    min = arr[j];
+                    minIndex = j;
                 }
             }
-            if(minIndex!=i){
-                arr[minIndex]=arr[i];
-                arr[i]=min;
+            if (minIndex != i) {
+                arr[minIndex] = arr[i];
+                arr[i] = min;
             }
             //System.out.println("µÚ"+(i+1)+"ÂÖºó~~");
             //System.out.println(Arrays.toString(arr));// 1, 34, 119, 101
@@ -57,82 +57,103 @@ public class SelectSort1 {
     }
 
     public static void selectSort_1(int[] arr) {
-        for(int i=0;i<arr.length-1;i++){
-            int min=arr[i];
-            int minIndex= i;
-            for (int j= i+1;j<arr.length;j++){
-                if(min>arr[j]){
-                    min =arr[j];
-                    minIndex=j;
-                }
-            }
-            if(minIndex!=i){
-                arr[minIndex]=arr[i];
-                arr[i]=min;
-            }
-        }
-    }
-    public static void selectSort_2(int[] arr) {
-        for(int i=0;i<arr.length-1;i++){
-            int min = arr[i];
-            int minIndex= i;
-            for(int j=i+1;j<arr.length;j++){
-                if(min >arr[j]){
-                    min = arr[j];
-                    minIndex=j;
-                }
-            }
-            if(minIndex!=i){
-                arr[minIndex]=arr[i];
-                arr[i]=min;
-            }
-        }
-    }
-    public static void selectSort_3(int[] arr) {
-        for(int i=0;i<arr.length-1;i++){
-            int min=arr[i];
-            int minIndex =i;
-            for(int j=i+1;j<arr.length;j++){
-                if(min>arr[j]){
-                    min=arr[j];
-                    minIndex=j;
-                }
-            }
-            if(minIndex!=i){
-                arr[minIndex]=arr[i];
-                arr[i]=min;
-            }
-        }
-    }
-    public static void selectSort_4(int[] arr) {
-        for(int i=0;i<arr.length-1;i++){
-            int min =arr[i];
-            int minIndex= i;
-            for(int j =i+1;j<arr.length;j++){
-                if(min>arr[j]){
-                    min=arr[j];
-                    minIndex=j;
-                }
-            }
-            if(minIndex!=i){
-                arr[minIndex]=arr[i];
-                arr[i]=min;
-            }
-        }
-    }
-    public static void selectSort_5(int[] arr) {
-        for (int i=0;i<arr.length-1;i++){
+        for (int i = 0; i < arr.length - 1; i++) {
             int min = arr[i];
             int minIndex = i;
-            for(int j=i+1;j<arr.length;j++){
-                if(min >arr[j]){
-                    min =arr[j];
-                    minIndex=j;
+            for (int j = i + 1; j < arr.length; j++) {
+                if (min > arr[j]) {
+                    min = arr[j];
+                    minIndex = j;
                 }
             }
-            if(minIndex!=i){
-                arr[minIndex]=arr[i];
-                arr[i]=min;
+            if (minIndex != i) {
+                arr[minIndex] = arr[i];
+                arr[i] = min;
+            }
+        }
+    }
+
+    public static void selectSort_2(int[] arr) {
+        for (int i = 0; i < arr.length - 1; i++) {
+            int min = arr[i];
+            int minIndex = i;
+            for (int j = i + 1; j < arr.length; j++) {
+                if (min > arr[j]) {
+                    min = arr[j];
+                    minIndex = j;
+                }
+            }
+            if (minIndex != i) {
+                arr[minIndex] = arr[i];
+                arr[i] = min;
+            }
+        }
+    }
+
+    public static void selectSort_3(int[] arr) {
+        for (int i = 0; i < arr.length - 1; i++) {
+            int min = arr[i];
+            int minIndex = i;
+            for (int j = i + 1; j < arr.length; j++) {
+                if (min > arr[j]) {
+                    min = arr[j];
+                    minIndex = j;
+                }
+            }
+            if (minIndex != i) {
+                arr[minIndex] = arr[i];
+                arr[i] = min;
+            }
+        }
+    }
+
+    public static void selectSort_4(int[] arr) {
+        for (int i = 0; i < arr.length - 1; i++) {
+            int min = arr[i];
+            int minIndex = i;
+            for (int j = i + 1; j < arr.length; j++) {
+                if (min > arr[j]) {
+                    min = arr[j];
+                    minIndex = j;
+                }
+            }
+            if (minIndex != i) {
+                arr[minIndex] = arr[i];
+                arr[i] = min;
+            }
+        }
+    }
+
+    public static void selectSort_5(int[] arr) {
+        for (int i = 0; i < arr.length - 1; i++) {
+            int min = arr[i];
+            int minIndex = i;
+            for (int j = i + 1; j < arr.length; j++) {
+                if (min > arr[j]) {
+                    min = arr[j];
+                    minIndex = j;
+                }
+            }
+            if (minIndex != i) {
+                arr[minIndex] = arr[i];
+                arr[i] = min;
+            }
+        }
+    }
+
+    public static void selectSort_6(int[] arr) {
+        for (int i = 0; i < arr.length - 1; i++) {
+            int minIndex = i;
+            int min = arr[i];
+            for (int j = i + 1; j < arr.length; j++) {
+                if (min > arr[j]) {
+                    min = arr[j];
+                    minIndex = j;
+                }
+            }
+            if (i != minIndex) {
+                arr[minIndex] = arr[i];
+                arr[i] = min;
             }
         }
     }

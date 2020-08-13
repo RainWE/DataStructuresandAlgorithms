@@ -153,49 +153,88 @@ public class QuickSort1 {
     }
 
     public static void quickSort_4(int[] arr, int left, int right) {
-        int r=right;
-        int l=left;
-        int pivot=arr[(left+right)/2];
-        int temp=0;
-        while (l<r){
-            while (arr[l]<pivot) l++;
-            while (arr[r]>pivot) r--;
-            if(l>=r) break;
-            temp=arr[l];
-            arr[l]=arr[r];
-            arr[r]=temp;
-            if(arr[l]==pivot) r--;
-            if(arr[r]==pivot) l++;
+        int r = right;
+        int l = left;
+        int pivot = arr[(left + right) / 2];
+        int temp = 0;
+        while (l < r) {
+            while (arr[l] < pivot) l++;
+            while (arr[r] > pivot) r--;
+            if (l >= r) break;
+            temp = arr[l];
+            arr[l] = arr[r];
+            arr[r] = temp;
+            if (arr[l] == pivot) r--;
+            if (arr[r] == pivot) l++;
         }
-        if(l==r){
+        if (l == r) {
             l++;
             r--;
         }
-        if(left<r) quickSort_4(arr,left,r);
-        if(l<right) quickSort_4(arr,l,right);
+        if (left < r) quickSort_4(arr, left, r);
+        if (l < right) quickSort_4(arr, l, right);
     }
 
     public static void quickSort_5(int[] arr, int left, int right) {
-        int r=right;
-        int l=left;
-        int pivot =arr[(right+left)/2];
-        int temp=0;
-        while (l<r){
-            while (arr[l]<pivot) l++;
-            while (arr[r]>pivot) r--;
-            if(l>=r) break;
-            temp=arr[l];
-            arr[l]=arr[r];
-            arr[r]=temp;
-            if(arr[l]==pivot) r--;
-            if (arr[r]==pivot) l++;
+        int r = right;
+        int l = left;
+        int pivot = arr[(right + left) / 2];
+        int temp = 0;
+        while (l < r) {
+            while (arr[l] < pivot) l++;
+            while (arr[r] > pivot) r--;
+            if (l >= r) break;
+            temp = arr[l];
+            arr[l] = arr[r];
+            arr[r] = temp;
+            if (arr[l] == pivot) r--;
+            if (arr[r] == pivot) l++;
         }
-        if(l==r){
+        if (l == r) {
             l++;
             r--;
         }
-        if(left<r) quickSort_5(arr,left,r);
-        if(l<right) quickSort_5(arr,l,right);
+        if (left < r) quickSort_5(arr, left, r);
+        if (l < right) quickSort_5(arr, l, right);
+
+    }
+
+    public static void quickSort_6(int[] arr, int left, int right) {
+        int l = left;
+        int r = right;
+        int pivot = arr[(left + right) / 2];
+        int temp = 0;
+        while (l < r) {
+            while (arr[l] < pivot) {
+                l++;
+            }
+            while (arr[r] > pivot) {
+                r--;
+            }
+            if (l >= r) {
+                break;
+            }
+            temp = arr[l];
+            arr[l] = arr[r];
+            arr[r] = temp;
+            if (arr[l]==pivot){
+                r--;
+            }
+            if (arr[r]==pivot){
+                l++;
+            }
+        }
+        if (l==r){
+            l++;
+            r--;
+        }
+        if (l<right){
+            quickSort_6(arr,l,right);
+        }
+        if (r>left){
+            quickSort_6(arr,left,r);
+        }
+
 
     }
 

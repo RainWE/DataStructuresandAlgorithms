@@ -21,7 +21,7 @@ public class ShellSort1 {
 //		String date1Str = simpleDateFormat.format(data1);
 //		System.out.println("排序前的时间是=" + date1Str);
 //      shellSort(arr); //交换式
-        shellSort2(arr);//移位方式
+        shellSort2_12(arr);//移位方式
 
 //		Date data2 = new Date();
 //		String date2Str = simpleDateFormat.format(data2);
@@ -382,4 +382,30 @@ public class ShellSort1 {
         }
     }
 
+    public static void shellSort2_11(int[] arr) {
+        for (int gap = arr.length / 2; gap > 0; gap /= 2) {
+            for (int i = gap; i < arr.length; i++) {
+                int j = i;
+                int temp = arr[i];
+                while (j - gap >= 0 && temp < arr[j - gap]) {
+                    arr[j] = arr[j - gap];
+                    j -= gap;
+                }
+                arr[j] = temp;
+            }
+        }
+    }
+    public static void shellSort2_12(int[] arr){
+        for (int gap=arr.length/2;gap>0;gap/=2){
+            for (int i=gap;i<arr.length;i++){
+                int insertVal =arr[i];
+                int insertInedx=i;
+                while (insertInedx-gap>=0 && insertVal<arr[insertInedx-gap]){
+                    arr[insertInedx]=arr[insertInedx-gap];
+                    insertInedx-=gap;
+                }
+                arr[insertInedx]=insertVal;
+            }
+        }
+    }
 }

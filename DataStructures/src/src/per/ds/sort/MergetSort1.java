@@ -142,7 +142,39 @@ public class MergetSort1 {
 		}
 
 	}
-
+	public static void merge_3(int[] arr, int left, int mid, int right, int[] temp){
+		int i=left;
+		int j=mid+1;
+		int t=0;
+		while (i<=mid && j<=right){
+			if (arr[i] < arr[j]){
+				temp[t]=arr[i];
+				t++;
+				i++;
+			}else {
+				temp[t]=arr[j];
+				t++;
+				j++;
+			}
+		}
+		while (i<=mid){
+			temp[t]=arr[i];
+			t++;
+			i++;
+		}
+		while (j<=right){
+			temp[t]=arr[j];
+			t++;
+			j++;
+		}
+		t=0;
+		int index=left;
+		while (index<=right){
+			arr[index]=arr[t];
+			t++;
+			index++;
+		}
+	}
 
 
 }

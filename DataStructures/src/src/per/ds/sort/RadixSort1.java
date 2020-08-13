@@ -20,7 +20,7 @@ public class RadixSort1 {
 //        String date1Str = simpleDateFormat.format(data1);
 //        System.out.println("排序前的时间是=" + date1Str);
 
-        radixSort_4(arr);
+        radixSort_5(arr);
 
 //        Date data2 = new Date();
 //        String date2Str = simpleDateFormat.format(data2);
@@ -168,6 +168,7 @@ public class RadixSort1 {
     }
 
     public static void radixSort_4(int[] arr) {
+
         int max = arr[0];
         for (int i = 1; i < arr.length; i++) {
             if (arr[i] > max) {
@@ -177,8 +178,41 @@ public class RadixSort1 {
         int maxlength = (max + "").length();
 
         int buckets[][] = new int[10][arr.length];
-        int bucketsElementsCount[] = new int[10];
+        int bucketsElementsCount[] = new int[10];   //10个桶
 
+        for (int i = 0, n = 1; i < maxlength; i++, n *= 10) {
+            for (int j = 0; j < arr.length; j++) {
+                int digitnum = arr[j] / n % 10;
+                buckets[digitnum][bucketsElementsCount[digitnum]] = arr[j];
+                bucketsElementsCount[digitnum]++;
+            }
+            int index = 0;
+            for (int k = 0; k < bucketsElementsCount.length; k++) {
+                if (bucketsElementsCount[k] != 0) {
+                    for (int l = 0; l < bucketsElementsCount[k]; l++) {
+                        arr[index] = buckets[k][l];
+                        index++;
+                    }
+                }
+                bucketsElementsCount[k] = 0;
+            }
+            System.out.println("第" + (i + 1) + "轮，对个位的排序处理 arr =" + Arrays.toString(arr));
+        }
+
+
+    }
+
+    public static void radixSort_5(int[] arr) {
+
+        int max = arr[0];
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
+            }
+        }
+        int maxlength = (max + "").length();
+        int buckets[][] = new int[10][arr.length];
+        int bucketsElementsCount[] = new int[10];
         for (int i = 0, n = 1; i < maxlength; i++, n *= 10) {
             for (int j = 0; j < arr.length; j++) {
                 int digitnum = arr[j] / n % 10;
@@ -196,10 +230,9 @@ public class RadixSort1 {
                 bucketsElementsCount[k] = 0;
             }
             System.out.println("第" + (i + 1) + "轮，对个位的排序处理 arr =" + Arrays.toString(arr));
+
         }
 
-
     }
-
 
 }

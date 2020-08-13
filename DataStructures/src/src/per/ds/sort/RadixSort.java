@@ -64,7 +64,7 @@ public class RadixSort {
 		for(int i = 0 , n = 1; i < maxLength; i++, n *= 10) {
 			//(针对每个元素的对应位进行排序处理)， 第一次是个位，第二次是十位，第三次是百位..
 			for(int j = 0; j < arr.length; j++) {
-				//取出每个元素的对应位的值
+				//取出每个元素的对应桶位的值
 				int digitOfElement = arr[j] / n % 10;
 				//放入到对应的桶中
 				bucket[digitOfElement][bucketElementCounts[digitOfElement]] = arr[j];
