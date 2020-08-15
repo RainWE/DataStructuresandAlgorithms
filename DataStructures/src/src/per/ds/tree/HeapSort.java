@@ -133,7 +133,18 @@ public class HeapSort {
             adjustHeap(arr, 0, j);
         }
     }
-
+    public static void heapSort_4(int arr[]){
+        int temp=0;
+        for (int i=arr.length/2-1;i>=0;i--){
+            adjustHeap_4(arr,i,arr.length);
+        }
+        for (int k=arr.length-1;k>=0;k--){
+            temp=arr[k];
+            arr[k]=arr[0];
+            arr[0]=temp;
+            adjustHeap_4(arr,0,k);
+        }
+    }
     public static void adjustHeap_1(int arr[], int i, int lenght) {
         int temp = arr[i];
         for (int k = i * 2 + 1; k < lenght; k = k * 2 + 1) {
@@ -181,5 +192,19 @@ public class HeapSort {
         }
         arr[i] = temp;
     }
-
+    public static void adjustHeap_4(int arr[], int i, int lenght){
+        int temp=arr[i];
+        for (int k=2*i+1;k<lenght;k=2*i+1){
+            if (arr[k]<arr[k+1]){
+                k++;
+            }
+            if (arr[k]>temp){
+                arr[i]=arr[k];
+                i=k;
+            }else {
+                break;
+            }
+        }
+        arr[i]=temp;
+    }
 }
