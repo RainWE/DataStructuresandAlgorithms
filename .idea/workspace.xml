@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f9148180-1851-4f94-a81a-fb34e25e18d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/src/per/ds/tree/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/src/per/ds/tree/HeapSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/src/per/ds/sort/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/per/leetcode/divideAndconquer/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/per/leetcode/divideAndconquer/MajorityElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +243,7 @@
       <workItem from="1597284602045" duration="4459000" />
       <workItem from="1597372593291" duration="6067000" />
       <workItem from="1597388597303" duration="2963000" />
-      <workItem from="1597468806126" duration="1026000" />
+      <workItem from="1597468806126" duration="1939000" />
     </task>
     <servers />
   </component>
