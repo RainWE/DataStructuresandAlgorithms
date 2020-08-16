@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f9148180-1851-4f94-a81a-fb34e25e18d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/per/leetcode/divideAndconquer/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/per/leetcode/divideAndconquer/MajorityElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/per/leetcode/dynamic/MaxSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/per/leetcode/dynamic/MaxSubArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +88,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.HeapSort">
+  <component name="RunManager" selected="Application.MaxSubArray">
     <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.per.ds.tree.HeapSort" />
       <module name="DataStructures" />
@@ -102,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergetSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.per.ds.sort.MergetSort" />
-      <module name="DataStructures" />
+    <configuration name="MaxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="per.leetcode.dynamic.MaxSubArray" />
+      <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.per.ds.sort.*" />
+          <option name="PATTERN" value="per.leetcode.dynamic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,8 +115,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.per.ds.sort.QuickSort1" />
+    <configuration name="MergetSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.per.ds.sort.MergetSort" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -156,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxSubArray" />
         <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.RadixSort1" />
         <item itemvalue="Application.MergetSort" />
-        <item itemvalue="Application.QuickSort1" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +243,8 @@
       <workItem from="1597284602045" duration="4459000" />
       <workItem from="1597372593291" duration="6067000" />
       <workItem from="1597388597303" duration="2963000" />
-      <workItem from="1597468806126" duration="1939000" />
+      <workItem from="1597468806126" duration="2097000" />
+      <workItem from="1597554574831" duration="1269000" />
     </task>
     <servers />
   </component>
