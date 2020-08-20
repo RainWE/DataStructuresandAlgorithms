@@ -35,6 +35,8 @@ public class KthLargest {
        dfs(root);
        return res;
     }
+    //本题解法基于此性质：二叉搜索树的中序遍历为 递增序列 。
+    //根据以上性质，易得二叉搜索树的 中序遍历倒序 为 递减序列 。所以倒序第k个就是正序第k大的节点
     public void dfs(TreeNode root){
         if (root==null) return;
         dfs(root.right);
