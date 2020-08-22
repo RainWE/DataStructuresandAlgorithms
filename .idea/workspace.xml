@@ -87,7 +87,20 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.PondSizes">
+  <component name="RunManager" selected="Application.AdvantageCount">
+    <configuration name="AdvantageCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="per.leetcode.greedy.AdvantageCount" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="per.leetcode.greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.per.ds.tree.HeapSort" />
       <module name="DataStructures" />
@@ -140,26 +153,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.per.ds.sort.test" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.per.ds.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AdvantageCount" />
         <item itemvalue="Application.PondSizes" />
         <item itemvalue="Application.StringTest" />
         <item itemvalue="Application.MaxSubArray" />
         <item itemvalue="Application.HeapSort" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +250,9 @@
       <workItem from="1597756337763" duration="385000" />
       <workItem from="1597795611872" duration="1946000" />
       <workItem from="1597839825028" duration="8000" />
-      <workItem from="1597903332568" duration="6179000" />
+      <workItem from="1597903332568" duration="7597000" />
+      <workItem from="1598001783423" duration="587000" />
+      <workItem from="1598061421801" duration="5155000" />
     </task>
     <servers />
   </component>
@@ -302,22 +304,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="259" key="GridCell.Tab.-1.right/0.0.1536.824@0.0.1536.824" timestamp="1594695778399" />
-    <state width="1493" height="164" key="GridCell.Tab.0.bottom" timestamp="1597914726239">
+    <state width="1493" height="244" key="GridCell.Tab.0.bottom" timestamp="1598075048976">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="164" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597914726239" />
-    <state width="1493" height="164" key="GridCell.Tab.0.center" timestamp="1597914726239">
+    <state width="1493" height="244" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598075048976" />
+    <state width="1493" height="244" key="GridCell.Tab.0.center" timestamp="1598075048975">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="164" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597914726239" />
-    <state width="1493" height="164" key="GridCell.Tab.0.left" timestamp="1597914726238">
+    <state width="1493" height="244" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598075048975" />
+    <state width="1493" height="244" key="GridCell.Tab.0.left" timestamp="1598075048975">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="164" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597914726238" />
-    <state width="1493" height="164" key="GridCell.Tab.0.right" timestamp="1597914726239">
+    <state width="1493" height="244" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598075048975" />
+    <state width="1493" height="244" key="GridCell.Tab.0.right" timestamp="1598075048976">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="164" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597914726239" />
+    <state width="1493" height="244" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598075048976" />
     <state width="1493" height="259" key="GridCell.Tab.1.bottom" timestamp="1594695772666">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -429,6 +431,16 @@
           <url>file://$PROJECT_DIR$/LeetCode/src/per/leetcode/dynamic/MaxSubArray.java</url>
           <line>54</line>
           <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/src/per/leetcode/greedy/AdvantageCount.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/src/per/leetcode/greedy/AdvantageCount.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
