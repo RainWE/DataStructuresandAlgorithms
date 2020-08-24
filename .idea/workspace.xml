@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f9148180-1851-4f94-a81a-fb34e25e18d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lanqiao/src/per/tran/training/networkStreamingNaked.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lanqiao/per/tran/training/monkeyEatsBuns.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lanqiao/per/tran/training/monkeyEatsBuns.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lanqiao/src/per/tran/training/RemembertheALaMode.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +88,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.attractionsTour">
+  <component name="RunManager" selected="Application.binaryNumber">
     <configuration name="Swapnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="per.tran.training.Swapnum" />
       <module name="lanqiao" />
@@ -129,6 +128,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="binaryNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="per.tran.training.binaryNumber" />
+      <module name="lanqiao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="per.tran.training.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="stringMerge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="per.tran.training.stringMerge" />
       <module name="lanqiao" />
@@ -142,26 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="per.tran.training.test" />
-      <module name="lanqiao" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="per.tran.training.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.binaryNumber" />
         <item itemvalue="Application.attractionsTour" />
         <item itemvalue="Application.additionOperation" />
         <item itemvalue="Application.Swapnum" />
         <item itemvalue="Application.stringMerge" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +256,7 @@
       <workItem from="1598061421801" duration="5271000" />
       <workItem from="1598154782812" duration="16297000" />
       <workItem from="1598194406450" duration="34000" />
-      <workItem from="1598231111487" duration="8892000" />
+      <workItem from="1598231111487" duration="11684000" />
     </task>
     <servers />
   </component>
@@ -309,22 +308,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="259" key="GridCell.Tab.-1.right/0.0.1536.824@0.0.1536.824" timestamp="1594695778399" />
-    <state width="746" height="192" key="GridCell.Tab.0.bottom" timestamp="1598254173930">
+    <state width="1493" height="192" key="GridCell.Tab.0.bottom" timestamp="1598258199477">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="192" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598254173930" />
-    <state width="746" height="192" key="GridCell.Tab.0.center" timestamp="1598254173930">
+    <state width="1493" height="192" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598258199477" />
+    <state width="1493" height="192" key="GridCell.Tab.0.center" timestamp="1598258199477">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="192" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598254173930" />
-    <state width="746" height="192" key="GridCell.Tab.0.left" timestamp="1598254173930">
+    <state width="1493" height="192" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598258199477" />
+    <state width="1493" height="192" key="GridCell.Tab.0.left" timestamp="1598258199477">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="192" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598254173930" />
-    <state width="746" height="192" key="GridCell.Tab.0.right" timestamp="1598254173930">
+    <state width="1493" height="192" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598258199477" />
+    <state width="1493" height="192" key="GridCell.Tab.0.right" timestamp="1598258199477">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="192" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598254173930" />
+    <state width="1493" height="192" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598258199477" />
     <state width="1493" height="259" key="GridCell.Tab.1.bottom" timestamp="1594695772666">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
