@@ -2,6 +2,9 @@ package per.tran.basicTraining;
 
 import java.util.Arrays;
 import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.Lock;
 
 /**数列排序
  问题描述
@@ -19,6 +22,7 @@ import java.util.Scanner;
  */
 public class arraysort {
     public static void main(String[] args) {
+
         Scanner scanner=new Scanner(System.in);
         int n=scanner.nextInt();
         int arr[]=new int[n];
@@ -30,4 +34,5 @@ public class arraysort {
             System.out.printf(i+" ");
         }
     }
+    
 }
