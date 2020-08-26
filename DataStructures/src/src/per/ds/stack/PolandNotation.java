@@ -117,7 +117,7 @@ public class PolandNotation {
 		}while(i < s.length());
 		return ls;//返回
 	}
-	
+
 	//将一个逆波兰表达式， 依次将数据和运算符 放入到 ArrayList中
 	public static List<String> getListString(String suffixExpression) {
 		//将 suffixExpression 分割
