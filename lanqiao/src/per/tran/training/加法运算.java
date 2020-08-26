@@ -13,7 +13,7 @@ import java.util.Scanner;
  样例输出
  11
  */
-public class additionOperation {
+public class 加法运算 {
     public static void main(String[] args) {
         Scanner scanner =new Scanner(System.in);
         int x=scanner.nextInt();

@@ -3,7 +3,7 @@ package per.tran.training;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class expressionCalculation {
+public class 表达式计算 {
     public static void main(String[] args) {
         // TODO Auto-generated method stub
         Scanner scanner = new Scanner(System.in);

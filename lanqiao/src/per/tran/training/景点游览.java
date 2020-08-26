@@ -20,7 +20,7 @@ import java.util.Scanner;
  数据规模和约定
  　　N<=1000,每个景点的评分<=10000。
  */
-public class attractionsTour {
+public class 景点游览 {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         int n=scanner.nextInt();

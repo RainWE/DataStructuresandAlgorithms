@@ -19,7 +19,7 @@ import java.util.Scanner;
  ¡¡¡¡0<x<100;0<y<100;0<z<100;0<x1<=1000000;0<y1<=10000000;0<z1<=10000000;0<p<=1000
 
  */
-public class monkeyEatsBuns {
+public class ºï×Ó³Ô°ü×Ó {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double x = sc.nextDouble();

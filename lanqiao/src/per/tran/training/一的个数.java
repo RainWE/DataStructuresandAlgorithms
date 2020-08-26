@@ -16,7 +16,7 @@ import java.util.Scanner;
  数据规模和约定
  　　n不超过30000
  */
-public class onecount {
+public class 一的个数 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

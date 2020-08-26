@@ -19,7 +19,7 @@ import java.util.Scanner;
  数据规模和约定
  　　L<=R<=100000;
  */
-public class binaryNumber {
+public class 二进制数数 {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         int L = scanner.nextInt();

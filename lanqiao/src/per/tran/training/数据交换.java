@@ -15,7 +15,7 @@ import java.util.Scanner;
  样例输出
  7 4
  */
-public class Swapnum {
+public class 数据交换 {
     public static int a,b;
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

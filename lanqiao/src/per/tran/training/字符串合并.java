@@ -19,7 +19,7 @@ import java.util.Scanner;
  数据规模和约定
  　　输入的字符串长度0<n<100
  */
-public class stringMerge {
+public class 字符串合并 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         StringBuilder str1 = new StringBuilder(scanner.next());

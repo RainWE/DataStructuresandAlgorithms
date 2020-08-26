@@ -19,7 +19,7 @@ import java.util.Scanner;
  数据规模和约定
  　　n是32位有符号整数
  */
-public class theLeastPerfectSquareNumberGreaterThanN {
+public class 大等于n的最小完全平方数 {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         long n=input.nextLong();
