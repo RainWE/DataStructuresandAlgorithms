@@ -3,17 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f9148180-1851-4f94-a81a-fb34e25e18d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lanqiao/src/per/tran/training/Swapnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/lanqiao/src/per/tran/training/数据交换.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lanqiao/src/per/tran/training/additionOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/lanqiao/src/per/tran/training/加法运算.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lanqiao/src/per/tran/training/attractionsTour.java" beforeDir="false" afterPath="$PROJECT_DIR$/lanqiao/src/per/tran/training/景点游览.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lanqiao/src/per/tran/training/binaryNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/lanqiao/src/per/tran/training/二进制数数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lanqiao/src/per/tran/training/expressionCalculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/lanqiao/src/per/tran/training/表达式计算.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lanqiao/src/per/tran/training/monkeyEatsBuns.java" beforeDir="false" afterPath="$PROJECT_DIR$/lanqiao/src/per/tran/training/猴子吃包子.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lanqiao/src/per/tran/training/onecount.java" beforeDir="false" afterPath="$PROJECT_DIR$/lanqiao/src/per/tran/training/一的个数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lanqiao/src/per/tran/training/stringMerge.java" beforeDir="false" afterPath="$PROJECT_DIR$/lanqiao/src/per/tran/training/字符串合并.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lanqiao/src/per/tran/training/theLeastPerfectSquareNumberGreaterThanN.java" beforeDir="false" afterPath="$PROJECT_DIR$/lanqiao/src/per/tran/training/大等于n的最小完全平方数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lanqiao/per/tran/training/Operation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lanqiao/per/tran/training/expressionCalculation.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,13 +87,52 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.排序">
+  <component name="RunManager" selected="Application.Anagrams问题">
     <configuration name="排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="per.tran.training.排序" />
       <module name="lanqiao" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="per.tran.training.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="二的次幂表示" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="per.tran.training.二的次幂表示" />
+      <module name="lanqiao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="per.tran.training.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Anagrams问题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="per.tran.training.Anagrams问题" />
+      <module name="lanqiao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="per.tran.training.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PolandNotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.per.ds.stack.PolandNotation" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.per.ds.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,25 +179,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolandNotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.per.ds.stack.PolandNotation" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.per.ds.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Anagrams问题" />
+        <item itemvalue="Application.二的次幂表示" />
         <item itemvalue="Application.排序" />
-        <item itemvalue="Application.图形显示" />
-        <item itemvalue="Application.最小公倍数" />
-        <item itemvalue="Application.递归查找二项式系数值" />
         <item itemvalue="Application.PolandNotation" />
       </list>
     </recent_temporary>
@@ -268,7 +282,8 @@
       <workItem from="1598194406450" duration="34000" />
       <workItem from="1598231111487" duration="11908000" />
       <workItem from="1598319453206" duration="5593000" />
-      <workItem from="1598417619266" duration="11310000" />
+      <workItem from="1598417619266" duration="11426000" />
+      <workItem from="1598506309061" duration="1532000" />
     </task>
     <servers />
   </component>
@@ -300,10 +315,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="524" y="117" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1597227228285" />
-    <state x="549" y="156" key="FileChooserDialogImpl" timestamp="1598348322935">
+    <state x="549" y="156" key="FileChooserDialogImpl" timestamp="1598435629872">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598348322935" />
+    <state x="549" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598435629872" />
     <state width="1493" height="259" key="GridCell.Tab.-1.bottom" timestamp="1594695778399">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -320,22 +335,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="259" key="GridCell.Tab.-1.right/0.0.1536.824@0.0.1536.824" timestamp="1594695778399" />
-    <state width="1493" height="192" key="GridCell.Tab.0.bottom" timestamp="1598435516940">
+    <state width="1493" height="192" key="GridCell.Tab.0.bottom" timestamp="1598508041262">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="192" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598435516940" />
-    <state width="1493" height="192" key="GridCell.Tab.0.center" timestamp="1598435516940">
+    <state width="1493" height="192" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598508041262" />
+    <state width="1493" height="192" key="GridCell.Tab.0.center" timestamp="1598508041261">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="192" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598435516940" />
-    <state width="1493" height="192" key="GridCell.Tab.0.left" timestamp="1598435516940">
+    <state width="1493" height="192" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598508041261" />
+    <state width="1493" height="192" key="GridCell.Tab.0.left" timestamp="1598508041261">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="192" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598435516940" />
-    <state width="1493" height="192" key="GridCell.Tab.0.right" timestamp="1598435516940">
+    <state width="1493" height="192" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598508041261" />
+    <state width="1493" height="192" key="GridCell.Tab.0.right" timestamp="1598508041261">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="192" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598435516940" />
+    <state width="1493" height="192" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598508041261" />
     <state width="1493" height="259" key="GridCell.Tab.1.bottom" timestamp="1594695772666">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
