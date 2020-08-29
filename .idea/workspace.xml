@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f9148180-1851-4f94-a81a-fb34e25e18d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/per/leetcode/dfs/IsBalanced.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/per/leetcode/dfs/IsBalanced.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,7 +313,8 @@
       <workItem from="1598506309061" duration="4570000" />
       <workItem from="1598521793373" duration="1499000" />
       <workItem from="1598584290332" duration="6271000" />
-      <workItem from="1598598142859" duration="3477000" />
+      <workItem from="1598598142859" duration="5394000" />
+      <workItem from="1598675302703" duration="2708000" />
     </task>
     <servers />
   </component>
@@ -344,10 +346,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="524" y="117" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1597227228285" />
-    <state x="549" y="156" key="FileChooserDialogImpl" timestamp="1598531584323">
+    <state x="549" y="156" key="FileChooserDialogImpl" timestamp="1598604718535">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598531584323" />
+    <state x="549" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598604718535" />
     <state width="1493" height="259" key="GridCell.Tab.-1.bottom" timestamp="1594695778399">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
