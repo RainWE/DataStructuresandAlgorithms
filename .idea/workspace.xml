@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f9148180-1851-4f94-a81a-fb34e25e18d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/per/leetcode/dfs/PathSum_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/per/leetcode/dfs/PathSum_1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,20 +88,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.PathSum_1">
-    <configuration name="排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="per.tran.training.排序" />
-      <module name="lanqiao" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="per.tran.training.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MinSubsequence">
     <configuration name="Anagrams问题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="per.tran.training.Anagrams问题" />
       <module name="lanqiao" />
@@ -114,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathSum_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="per.leetcode.dfs.PathSum_1" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="per.leetcode.other.Main" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="per.leetcode.dfs.*" />
+          <option name="PATTERN" value="per.leetcode.other.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +115,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolandNotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.per.ds.stack.PolandNotation" />
-      <module name="DataStructures" />
+    <configuration name="MinSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="per.leetcode.sort.MinSubsequence" />
+      <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.per.ds.stack.*" />
+          <option name="PATTERN" value="per.leetcode.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PathSum_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="per.leetcode.dfs.PathSum_1" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="per.leetcode.dfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -220,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinSubsequence" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.PathSum_1" />
         <item itemvalue="Application.SortedArrayToBST" />
         <item itemvalue="Application.Anagrams问题" />
-        <item itemvalue="Application.排序" />
-        <item itemvalue="Application.PolandNotation" />
       </list>
     </recent_temporary>
   </component>
@@ -332,7 +333,10 @@
       <workItem from="1598936330572" duration="7982000" />
       <workItem from="1599107764358" duration="783000" />
       <workItem from="1599182055969" duration="142000" />
-      <workItem from="1599202777514" duration="2784000" />
+      <workItem from="1599202777514" duration="3655000" />
+      <workItem from="1599215914407" duration="5737000" />
+      <workItem from="1599274096381" duration="26000" />
+      <workItem from="1599280330296" duration="2762000" />
     </task>
     <servers />
   </component>
@@ -364,10 +368,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="524" y="117" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1598694900541" />
-    <state x="549" y="156" key="FileChooserDialogImpl" timestamp="1599182200540">
+    <state x="549" y="156" key="FileChooserDialogImpl" timestamp="1599274126043">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599182200540" />
+    <state x="549" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599274126043" />
     <state width="1493" height="259" key="GridCell.Tab.-1.bottom" timestamp="1594695778399">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -384,22 +388,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="259" key="GridCell.Tab.-1.right/0.0.1536.824@0.0.1536.824" timestamp="1594695778399" />
-    <state width="1493" height="244" key="GridCell.Tab.0.bottom" timestamp="1598705765576">
+    <state width="1493" height="191" key="GridCell.Tab.0.bottom" timestamp="1599288417083">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="244" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598705765576" />
-    <state width="1493" height="244" key="GridCell.Tab.0.center" timestamp="1598705765576">
+    <state width="1493" height="191" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599288417082" />
+    <state width="1493" height="191" key="GridCell.Tab.0.center" timestamp="1599288417082">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="244" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598705765576" />
-    <state width="1493" height="244" key="GridCell.Tab.0.left" timestamp="1598705765575">
+    <state width="1493" height="191" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599288417082" />
+    <state width="1493" height="191" key="GridCell.Tab.0.left" timestamp="1599288417082">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="244" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598705765575" />
-    <state width="1493" height="244" key="GridCell.Tab.0.right" timestamp="1598705765576">
+    <state width="1493" height="191" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599288417082" />
+    <state width="1493" height="191" key="GridCell.Tab.0.right" timestamp="1599288417082">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="244" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598705765576" />
+    <state width="1493" height="191" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599288417082" />
     <state width="1493" height="259" key="GridCell.Tab.1.bottom" timestamp="1594695772666">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
