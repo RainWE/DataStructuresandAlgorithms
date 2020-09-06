@@ -323,7 +323,7 @@
       <workItem from="1599215914407" duration="5737000" />
       <workItem from="1599274096381" duration="26000" />
       <workItem from="1599280330296" duration="4834000" />
-      <workItem from="1599360033696" duration="1747000" />
+      <workItem from="1599360033696" duration="3095000" />
     </task>
     <servers />
   </component>
@@ -537,16 +537,6 @@
           <url>file://$PROJECT_DIR$/LeetCode/src/per/leetcode/dfs/PathSum_1.java</url>
           <line>43</line>
           <option name="timeStamp" value="69" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/LeetCode/src/per/leetcode/sort/SortByBits.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="70" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/LeetCode/src/per/leetcode/sort/SortByBits.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="71" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
