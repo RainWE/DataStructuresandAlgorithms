@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f9148180-1851-4f94-a81a-fb34e25e18d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/per/leetcode/sort/SortByBits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/per/leetcode/sort/SortByBits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/per/leetcode/sort/AllCellsDistOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/per/leetcode/sort/AllCellsDistOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -300,7 +300,7 @@
       <workItem from="1599280330296" duration="4834000" />
       <workItem from="1599360033696" duration="3824000" />
       <workItem from="1599393158777" duration="4427000" />
-      <workItem from="1599461280544" duration="2987000" />
+      <workItem from="1599461280544" duration="4738000" />
     </task>
     <servers />
   </component>
@@ -517,12 +517,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LeetCode/src/per/leetcode/sort/AllCellsDistOrder.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="70" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/LeetCode/src/per/leetcode/sort/AllCellsDistOrder.java</url>
-          <line>40</line>
+          <line>43</line>
           <option name="timeStamp" value="71" />
         </line-breakpoint>
       </breakpoints>
