@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="f9148180-1851-4f94-a81a-fb34e25e18d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/per/leetcode/sort/AllCellsDistOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/per/leetcode/sort/AllCellsDistOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/BubbleSort1.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/BubbleSort1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/InsertSort1.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/InsertSort1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/SelectSort1.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/SelectSort1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/src/per/ds/sort/BubbleSort1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/src/per/ds/sort/BubbleSort1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/src/per/ds/sort/InsertSort1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/src/per/ds/sort/InsertSort1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/src/per/ds/sort/SelectSort1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/src/per/ds/sort/SelectSort1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +36,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="GuiceNewModule" />
+        <option value="UML Sequence" />
+        <option value="UML Use Case" />
+        <option value="UML MindMap" />
+        <option value="Salt Wireframe" />
+        <option value="Work Breakdown Structure" />
+        <option value="UML Gantt" />
+        <option value="UML Object" />
+        <option value="UML State" />
+        <option value="UML Component" />
+        <option value="UML Activity" />
+        <option value="UML Class" />
       </list>
     </option>
   </component>
@@ -55,6 +72,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -64,7 +82,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="leetcode.id" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -88,7 +106,20 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.AllCellsDistOrder">
+  <component name="RunManager" selected="Application.InsertSort1">
+    <configuration name="图形显示" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="per.tran.training.图形显示" />
+      <module name="lanqiao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="per.tran.training.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AllCellsDistOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="per.leetcode.sort.AllCellsDistOrder" />
       <module name="LeetCode" />
@@ -102,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="per.leetcode.other.Main" />
-      <module name="LeetCode" />
+    <configuration name="InsertSort1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.per.ds.sort.InsertSort1" />
+      <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="per.leetcode.other.*" />
+          <option name="PATTERN" value="src.per.ds.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="per.leetcode.sort.MinSubsequence" />
-      <module name="LeetCode" />
+    <configuration name="SelectSort1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.per.ds.sort.SelectSort1" />
+      <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="per.leetcode.sort.*" />
+          <option name="PATTERN" value="src.per.ds.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,39 +185,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="递归查找二项式系数值" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="per.tran.training.递归查找二项式系数值" />
-      <module name="lanqiao" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="per.tran.training.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="图形显示" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="per.tran.training.图形显示" />
-      <module name="lanqiao" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="per.tran.training.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertSort1" />
+        <item itemvalue="Application.SelectSort1" />
         <item itemvalue="Application.AllCellsDistOrder" />
         <item itemvalue="Application.Main_1" />
         <item itemvalue="Application.SortByBits" />
-        <item itemvalue="Application.MinSubsequence" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -300,7 +305,12 @@
       <workItem from="1599280330296" duration="4834000" />
       <workItem from="1599360033696" duration="3824000" />
       <workItem from="1599393158777" duration="4427000" />
-      <workItem from="1599461280544" duration="4738000" />
+      <workItem from="1599461280544" duration="5005000" />
+      <workItem from="1600222946604" duration="4422000" />
+      <workItem from="1600328547924" duration="683000" />
+      <workItem from="1600329428848" duration="537000" />
+      <workItem from="1600329982489" duration="1264000" />
+      <workItem from="1600430706329" duration="7000" />
     </task>
     <servers />
   </component>
@@ -332,10 +342,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="524" y="117" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1599375432004" />
-    <state x="549" y="156" key="FileChooserDialogImpl" timestamp="1599400150882">
+    <state x="549" y="156" key="FileChooserDialogImpl" timestamp="1600430712125">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599400150882" />
+    <state x="549" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600430712125" />
     <state width="1493" height="259" key="GridCell.Tab.-1.bottom" timestamp="1594695778399">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -352,22 +362,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="259" key="GridCell.Tab.-1.right/0.0.1536.824@0.0.1536.824" timestamp="1594695778399" />
-    <state width="1493" height="242" key="GridCell.Tab.0.bottom" timestamp="1599464195051">
+    <state width="1493" height="190" key="GridCell.Tab.0.bottom" timestamp="1600235380899">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="242" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599464195051" />
-    <state width="1493" height="242" key="GridCell.Tab.0.center" timestamp="1599464195051">
+    <state width="1493" height="190" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600235380899" />
+    <state width="1493" height="190" key="GridCell.Tab.0.center" timestamp="1600235380898">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="242" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599464195051" />
-    <state width="1493" height="242" key="GridCell.Tab.0.left" timestamp="1599464195051">
+    <state width="1493" height="190" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600235380898" />
+    <state width="1493" height="190" key="GridCell.Tab.0.left" timestamp="1600235380898">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="242" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599464195051" />
-    <state width="1493" height="242" key="GridCell.Tab.0.right" timestamp="1599464195051">
+    <state width="1493" height="190" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600235380898" />
+    <state width="1493" height="190" key="GridCell.Tab.0.right" timestamp="1600235380898">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="242" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599464195051" />
+    <state width="1493" height="190" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600235380898" />
     <state width="1493" height="259" key="GridCell.Tab.1.bottom" timestamp="1594695772666">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -388,10 +398,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="415" y="104" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1597157744402" />
-    <state x="210" y="22" width="1130" height="758" key="SettingsEditor" timestamp="1597157793123">
+    <state x="210" y="22" width="1130" height="758" key="SettingsEditor" timestamp="1600329966085">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="210" y="22" width="1130" height="758" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597157793123" />
+    <state x="210" y="22" width="1130" height="758" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1600329966085" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1593925011092">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -412,10 +422,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1598426414219" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599464118708">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1600223645225">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599464118708" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1600223645225" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -449,11 +459,6 @@
           <url>file://$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/ShellSort.java</url>
           <line>113</line>
           <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/ShellSort.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/DataStructures/src/src/per/ds/sort/MergetSort.java</url>

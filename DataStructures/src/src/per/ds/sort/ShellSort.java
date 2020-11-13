@@ -11,7 +11,7 @@ public class ShellSort {
 		
 		// 创建要给80000个的随机的数组
 //		int[] arr = new int[8000000];
-//		for (int i = 0; i < 8000000; i++) {
+//		for (int i = 0; i < 8::000000; i++) {
 //			arr[i] = (int) (Math.random() * 8000000); // 生成一个[0, 8000000) 数
 //		}
 
