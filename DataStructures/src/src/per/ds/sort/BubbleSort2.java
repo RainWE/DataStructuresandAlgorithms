@@ -9,7 +9,7 @@ public class BubbleSort2 {
 		int arr[] = {3, 9, -1, 20, 10};
 		System.out.println("≈≈–Ú«∞");
 		System.out.println(Arrays.toString(arr));
-        bubbleSort_1(arr);
+        bubbleSort_2(arr);
         System.out.println("≈≈–Ú∫Û");
         System.out.println(Arrays.toString(arr));
     }
@@ -34,6 +34,19 @@ public class BubbleSort2 {
                 break;
             }else {
                 flag=false;
+            }
+        }
+    }
+
+    public static void bubbleSort_2(int[] arr){
+        int temp=0;
+        for (int i =0;i<arr.length-1;i++){
+            for (int j=0;j<arr.length-1-i;j++){
+                if (arr[j]>arr[j+1]){
+                    temp=arr[j];
+                    arr[j]=arr[j+1];
+                    arr[j+1]=temp;
+                }
             }
         }
     }
